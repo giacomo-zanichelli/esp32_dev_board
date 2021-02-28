@@ -1,0 +1,239 @@
+54894065757052
+footprints
+Espressif-ESP32_QFN49P40_600X600X90L40X20T430N
+Quad Flat No-Lead (QFN with Tab), 0.40 mm pitch; square, 12 pin X 12 pin, 6.00 mm L X 6.00 mm W X 0.90 mm H body
+Espressif, ESP32, 6x6mm
+0
+56
+49
+footprints
+GigaDevice-GD25Q64CS_SOIC8P127_523X790X216L67X41N
+Small Outline IC (SOIC), 1.27 mm pitch; 8 pin, 5.23 mm L X 5.28 mm W X 2.16 mm H body
+
+0
+8
+8
+footprints
+LiteOn-LTST-C155_LEDCAV4P138_270X320X110L50X90N
+Chip Array, 2 Side Concave, 1.38 mm pitch; 4 pin, 2.70 mm L X 3.20 mm W X 1.10 mm H body
+Bi-Coulor LED
+0
+4
+4
+footprints
+Molex-1050170001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
+footprints
+RaltronElectronics-RH100_XTALDFN4_250X320X80L90X100N
+Crystal, Dual Flat No-Lead (DFN 4 Pins), 1.60 mm pitch; 4 pin, 2.50 mm L X 3.20 mm W X 0.80 mm H body
+
+0
+4
+4
+footprints
+RaltronElectronics-RT3215_XTALDFN2_320X150X90L65X130N
+Crystal, Dual Flat No-Lead (DFN 2 Pin); 2 pin, 3.20 mm L X 1.50 mm W X 0.90 mm H body
+
+0
+2
+2
+footprints
+TexasInstruments-TLV755_SOT23-5P95_280X145L45X40N
+Small Outline Transistor (SOT23), 0.95 mm pitch; 5 pin, 2.90 mm L X 1.60 mm W X 1.45 mm H body
+
+0
+5
+5
+footprints
+WE-430181038816_SWSOFL4P150_450X750X380L150X70N
+Tact Switch, Small Outline Flat Lead (SOFL), 1.50 mm pitch; 4 pin, 4.50 mm L X 4.50 mm W X 3.80 mm H body
+Tact Switch, SOFL
+0
+4
+4
+footprints_generic
+BEADC100X50X55L25N
+Ferrite Bead, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body; EIA0402
+
+0
+2
+2
+footprints_generic
+BEADC160X80X95L40N
+Ferrite Bead, Chip; 1.60 mm L X 0.80 mm W X 0.95 mm H body; EIA0603
+
+0
+2
+2
+footprints_generic
+BEADC200X160X120L50N
+Ferrite Bead, Chip; 2.00 mm L X 1.60 mm W X 1.20 mm H body; EIA0805
+
+0
+2
+2
+footprints_generic
+CAPC60X40X33L15L
+Capacitor, Chip; 0.60 mm L X 0.40 mm W X 0.33 mm H body; EIA0201
+
+0
+2
+2
+footprints_generic
+CAPC100X50X55L30N
+Capacitor, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body; EIA0402
+
+0
+2
+2
+footprints_generic
+CAPC160X80X95L35N
+Capacitor, Chip; 1.60 mm L X 0.80 mm W X 0.95 mm H body; EIA0603
+
+0
+2
+2
+footprints_generic
+CAPC200X125X110L50N
+Capacitor, Chip; 2.00 mm L X 1.25 mm W X 1.10 mm H body; EIA0805
+
+0
+2
+2
+footprints_generic
+CAPC320X160X180L50N
+Capacitor, Chip; 3.20 mm L X 1.60 mm W X 1.80 mm H body; EIA1206
+
+0
+2
+2
+footprints_generic
+CAPC320X250X280L50N
+Capacitor, Chip; 3.20 mm L X 2.50 mm W X 2.80 mm H body; EIA1210
+
+0
+2
+2
+footprints_generic
+FUSC154X85X58L43N
+Fuse, Chip; 1.54 mm L X 0.85 mm W X 0.58 mm H body; EIA0603
+
+0
+2
+2
+footprints_generic
+FUSC320X167X87L52N
+Fuse, Chip; 3.20 mm L X 1.67 mm W X 0.87 mm H body; ; EIA1206
+
+0
+2
+2
+footprints_generic
+INDC60X30X42L15L
+Inductor, Chip; 0.60 mm L X 0.30 mm W X 0.42 mm H body; EIA0201
+
+0
+2
+2
+footprints_generic
+INDC100X50X55L25N
+Inductor, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body; EIA0402
+
+0
+2
+2
+footprints_generic
+INDC160X80X95L40N
+Inductor, Chip; 1.60 mm L X 0.80 mm W X 0.95 mm H body; EIA0603
+
+0
+2
+2
+footprints_generic
+INDC200X125X145L50N
+Inductor, Chip; 2.00 mm L X 1.25 mm W X 1.45 mm H body; EIA0805
+
+0
+2
+2
+footprints_generic
+RESC40X20X15L10
+Resistor, Chip; 0.40 mm L X 0.20 mm W X 0.15 mm H body; EIA01005
+
+0
+2
+2
+footprints_generic
+RESC60X30X26L15L
+Resistor, Chip; 0.60 mm L X 0.30 mm W X 0.26 mm H body; EIA0201
+
+0
+2
+2
+footprints_generic
+RESC100X50X40L25NN
+Resistor, Chip; 1.00 mm L X 0.50 mm W X 0.40 mm H body; EIA0402
+
+0
+2
+2
+footprints_generic
+RESC160X85X55L30N
+Resistor, Chip; 1.60 mm L X 0.85 mm W X 0.55 mm H body; EIA0603
+
+0
+2
+2
+footprints_generic
+RESC200X125X70L40N
+Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.70 mm H body; EIA0805
+
+0
+2
+2
+footprints_generic
+RESC312X155X70L50N
+Resistor, Chip; 3.125 mm L X 1.55 mm W X 0.70 mm H body; EIA1206
+
+0
+2
+2
+footprints_generic
+RESC312X250X70L50N
+Resistor, Chip; 3.125 mm L X 2.50 mm W X 0.70 mm H body; EIA1210
+
+0
+2
+2
+footprints_generic
+RESC450X320X70L50N
+Resistor, Chip; 4.50 mm L X 3.20 mm W X 0.70 mm H body; EIA1812
+
+0
+2
+2
+footprints_generic
+RESC500X250X70L60N
+Resistor, Chip; 5.00 mm L X 2.50 mm W X 0.70 mm H body; EIA2010
+
+0
+2
+2
+footprints_generic
+RESC640X320X70L60N
+Resistor, Chip; 6.40 mm L X 3.20 mm W X 0.70 mm H body; EIA2512
+
+0
+2
+2
+footprints_generic
+WE-875075xx10xx_CAPAE1030X1240D1100L285X90N
+Capacitor, Aluminum Electrolytic; 10.30 mm L X 10.30 mm W X 12.40 mm H body
+
+0
+2
+2
