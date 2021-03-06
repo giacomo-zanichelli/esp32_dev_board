@@ -53,6 +53,31 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# gz_Ferrite-Beads-and-Chips_FB-EIA0603
+#
+DEF gz_Ferrite-Beads-and-Chips_FB-EIA0603 FB 0 40 N N 1 F N
+F0 "FB" -250 600 50 H V L CNN
+F1 "gz_Ferrite-Beads-and-Chips_FB-EIA0603" 600 1400 50 H I L CNN
+F2 "footprints_generic:BEADC160X80X95L40N" 600 1300 50 H I L CNN
+F3 "" -3300 4450 50 H I L CNN
+F4 "Digi-Key_PN" 600 1200 50 H I L CNN "Digi-Key_PN"
+F5 "Murata Electronics" 600 1100 50 H I L CNN "Manufacturer"
+F6 "MPN" 600 1000 50 H I L CNN "MPN"
+F7 "Filters" 600 900 50 H I L CNN "Category"
+F8 "Ferrite Beads and Chips" 600 800 50 H I L CNN "Family"
+F9 "<imp> @ <freq>" -250 500 50 H V L CNN "Impedance"
+F10 "Current" -250 400 50 H V L CNN "Current"
+F11 "DCR" 100 400 50 H V L CNN "DCR"
+F12 "EIA0603" -250 300 50 H V L CNN "Package"
+DRAW
+C -100 0 0 0 1 0 N
+S 100 25 -50 -25 0 0 0 N
+P 2 0 0 0 -10 0 60 0 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # gz_Memory_GigaDevice-GD25Q64CSIGR
 #
 DEF gz_Memory_GigaDevice-GD25Q64CSIGR U 0 50 Y Y 1 F N
