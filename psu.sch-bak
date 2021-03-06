@@ -128,4 +128,60 @@ F 13 "V-Chip SMT D6.3x L7.7" H 3900 1850 50  0000 L CNN "Package"
 	1    3750 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L gz_Ceramic-Capacitors:CAP-EIA0603 C?
+U 1 1 6044A8A6
+P 5000 1950
+F 0 "C?" V 4800 2100 50  0000 L CNN
+F 1 "CAP-EIA0603" H 5400 3050 50  0001 L CNN
+F 2 "footprints_generic:CAPC160X80X95L35N" H 1700 6300 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C105K4PAC7411.pdf" H 1700 6400 50  0001 L CNN
+F 4 "399-C0603C105K4PAC7411CT-ND" H 5400 2950 50  0001 L CNN "Digi-Key_PN"
+F 5 "KEMET" H 5400 2850 50  0001 L CNN "Manufacturer"
+F 6 "C0603C105K4PAC7411" H 5400 2750 50  0001 L CNN "MPN"
+F 7 "Capacitors" H 1700 6700 50  0001 L CNN "Category"
+F 8 "Ceramic Capacitors" H 1700 6800 50  0001 L CNN "Family"
+F 9 "1uF" V 4900 2100 50  0000 L CNN "Capacitance"
+F 10 "±10%" V 4900 2300 50  0000 L CNN "Tolerance"
+F 11 "16V" V 5000 2100 50  0000 L CNN "Voltage"
+F 12 "X5R" V 5000 2300 50  0000 L CNN "Dielectric"
+F 13 "EIA0603" V 5100 2100 50  0000 L CNN "Package"
+	1    5000 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 1700 3750 1700
+Wire Wire Line
+	3750 1700 3750 1850
+Wire Wire Line
+	3750 1700 5000 1700
+Wire Wire Line
+	5000 1700 5000 1850
+Connection ~ 3750 1700
+Wire Wire Line
+	5000 2050 5000 2200
+Wire Wire Line
+	3750 2050 3750 2200
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 6044FC52
+P 3750 2200
+F 0 "#PWR?" H 3750 1950 50  0001 C CNN
+F 1 "GND" H 3755 2027 50  0000 C CNN
+F 2 "" H 3750 2200 50  0001 C CNN
+F 3 "" H 3750 2200 50  0001 C CNN
+	1    3750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 60450196
+P 5000 2200
+F 0 "#PWR?" H 5000 1950 50  0001 C CNN
+F 1 "GND" H 5005 2027 50  0000 C CNN
+F 2 "" H 5000 2200 50  0001 C CNN
+F 3 "" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
