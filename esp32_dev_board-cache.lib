@@ -155,6 +155,29 @@ X VCC 8 -400 450 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# gz_PMIC-Voltage-Regulators-Linear_TI-TLV75533PDBVR
+#
+DEF gz_PMIC-Voltage-Regulators-Linear_TI-TLV75533PDBVR U 0 50 Y Y 1 F N
+F0 "U" -250 400 50 H V L CNN
+F1 "gz_PMIC-Voltage-Regulators-Linear_TI-TLV75533PDBVR" 750 1150 50 H I L CNN
+F2 "footprints:TI-TLV755_SOT23-5P95_280X145L45X40N" 750 1050 50 H I L CNN
+F3 "" 350 300 50 H I L CNN
+F4 "296-50411-1-ND" 750 950 50 H I L CNN "Digi-Key_PN"
+F5 "Texas Instruments" -350 -300 50 H V L CNN "Manufacturer"
+F6 "TLV75533PDBVR" -350 -400 50 H V L CNN "MPN"
+F7 "Integrated Circuits (ICs)" 750 850 50 H I L CNN "Category"
+F8 "PMIC - Voltage Regulators - Linear" 750 750 50 H I L CNN "Family"
+DRAW
+S 200 350 -300 -150 0 1 0 N
+P 4 0 1 0 -285 -75 -260 -75 -260 -10 -235 -10 N
+X OUT 5 300 250 100 L 50 50 0 0 w
+X IN 1 -400 250 100 R 50 50 1 1 W
+X GND 2 300 -50 100 L 50 50 1 1 W
+X EN 3 -400 -50 100 R 50 50 1 1 I
+X ~ 4 -50 -150 0 L 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
 # gz_Power-Symbols_3V3
 #
 DEF gz_Power-Symbols_3V3 #PWR 0 0 Y Y 1 F P
