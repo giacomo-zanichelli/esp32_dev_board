@@ -1,6 +1,31 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# gz_Aluminum-Electrolytic-Capacitors_WE-865080245009
+#
+DEF gz_Aluminum-Electrolytic-Capacitors_WE-865080245009 C 0 0 N Y 1 F N
+F0 "C" 200 400 50 H V L CNN
+F1 "gz_Aluminum-Electrolytic-Capacitors_WE-865080245009" 900 1600 50 H I L CNN
+F2 "footprints_generic:WE-86508xx450xx_CAPAE660X770D730L255X65N" 900 1500 50 H I L CNN
+F3 "" 900 1300 50 H I L CNN
+F4 "732-8492-1-ND" 900 1400 50 H I L CNN "Digi-Key_PN"
+F5 "Würth Elektronik" 900 1300 50 H I L CNN "Manufacturer"
+F6 "865080245009" 900 1200 50 H I L CNN "MPN"
+F7 "Capacitors" 900 1100 50 H I L CNN "Category"
+F8 "Aluminum Electrolytic Capacitors" 900 1000 50 H I L CNN "Family"
+F9 "220uF" 200 300 50 H V L CNN "Capacitance"
+F10 "±20%" 450 300 50 H V L CNN "Tolerance"
+F11 "10V" 200 200 50 H V L CNN "Voltage"
+F12 "ESR" 400 200 50 H I L CNN "ESR"
+F13 "V-Chip SMT D6.3x L7.7" 200 100 50 H V L CNN "Package"
+DRAW
+S -100 35 100 20 0 1 0 N
+S 100 -35 -100 -20 0 1 0 F
+X + 1 0 100 65 D 50 50 1 1 P
+X - 2 0 -100 65 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # gz_Ceramic-Capacitors_CAP-EIA0402
 #
 DEF gz_Ceramic-Capacitors_CAP-EIA0402 C 0 40 N N 1 F N
