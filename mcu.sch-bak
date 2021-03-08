@@ -39,7 +39,7 @@ U 1 1 60319E5A
 P 1500 6050
 F 0 "C?" V 1200 6200 50  0000 L CNN
 F 1 "CAP-EIA0402" H 1900 7150 50  0001 L CNN
-F 2 "gz-passives:CAPC100X50X55L30N" H -1800 10400 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H -1800 10400 50  0001 L CNN
 F 3 "https://ds.murata.co.jp/simsurfing/mlcc.html?lcid=en-us" H -1800 10500 50  0001 L CNN
 F 4 "490-13341-1-ND" H 1900 7050 50  0001 L CNN "Digi-Key_PN"
 F 5 "Murata Electronics" H 1900 6950 50  0001 L CNN "Manufacturer"
@@ -226,7 +226,7 @@ U 1 1 6034CD96
 P 4300 2550
 F 0 "C?" V 4000 2700 50  0000 L CNN
 F 1 "CAP-EIA0402" H 4700 3650 50  0001 L CNN
-F 2 "gz-passives:CAPC100X50X55L30N" H 1000 6900 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H 1000 6900 50  0001 L CNN
 F 3 "https://ds.murata.co.jp/simsurfing/mlcc.html?lcid=en-us" H 1000 7000 50  0001 L CNN
 F 4 "490-10018-1-ND" H 4700 3550 50  0001 L CNN "Digi-Key_PN"
 F 5 "Murata Electronics" H 4700 3450 50  0001 L CNN "Manufacturer"
@@ -279,7 +279,7 @@ U 1 1 6035CBB5
 P 4150 1700
 F 0 "C?" V 4000 1850 50  0000 L CNN
 F 1 "CAP-EIA0402" H 4550 2800 50  0001 L CNN
-F 2 "gz-passives:CAPC100X50X55L30N" H 850 6050 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H 850 6050 50  0001 L CNN
 F 3 "https://ds.murata.co.jp/simsurfing/mlcc.html?lcid=en-us" H 850 6150 50  0001 L CNN
 F 4 "490-13341-1-ND" H 4550 2700 50  0001 L CNN "Digi-Key_PN"
 F 5 "Murata Electronics" H 4550 2600 50  0001 L CNN "Manufacturer"
@@ -300,7 +300,7 @@ U 1 1 60360F34
 P 4950 1700
 F 0 "C?" V 4800 1850 50  0000 L CNN
 F 1 "CAP-EIA0402" H 5350 2800 50  0001 L CNN
-F 2 "gz-passives:CAPC100X50X55L30N" H 1650 6050 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H 1650 6050 50  0001 L CNN
 F 3 "https://ds.murata.co.jp/simsurfing/mlcc.html?lcid=en-us" H 1650 6150 50  0001 L CNN
 F 4 "490-13341-1-ND" H 5350 2700 50  0001 L CNN "Digi-Key_PN"
 F 5 "Murata Electronics" H 5350 2600 50  0001 L CNN "Manufacturer"
