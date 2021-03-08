@@ -22,7 +22,7 @@ AR Path="/60330427/60318BED" Ref="U?"  Part="1"
 F 0 "U?" H 1000 7150 50  0000 R CNN
 F 1 "GigaDevice-GD25Q64CSIGR" H 2700 7800 50  0001 L CNN
 F 2 "footprints:Espressif-ESP32_QFN49P40_600X600X90L40X20T430N" H 2700 7700 50  0001 L CNN
-F 3 "${DATASHEETS}/Espressif_ESP32-D0WDQ6-V3.pdf" H 1900 7050 50  0001 L CNN
+F 3 "${DATASHEETS}/GigaDevice-GD25Q64CSIGR.pdf" H 1900 7050 50  0001 L CNN
 F 4 "Digikey" H 1550 6750 50  0001 L CNN "Vendor"
 F 5 "1970-1026-1-ND" H 1550 6750 50  0001 L CNN "Vendor_PN"
 F 6 "GigaDevice" V 900 6800 50  0000 R CNN "Manufacturer"
@@ -40,17 +40,19 @@ P 1500 6050
 F 0 "C?" V 1200 6200 50  0000 L CNN
 F 1 "CAP-EIA0402" H 1900 7150 50  0001 L CNN
 F 2 "footprints_generic:CAPC100X50X55L30N" H -1800 10400 50  0001 L CNN
-F 3 "https://ds.murata.co.jp/simsurfing/mlcc.html?lcid=en-us" H -1800 10500 50  0001 L CNN
-F 4 "490-13341-1-ND" H 1900 7050 50  0001 L CNN "Digi-Key_PN"
-F 5 "Murata Electronics" H 1900 6950 50  0001 L CNN "Manufacturer"
-F 6 "GRM155R71E104ME14D" H 1900 6850 50  0001 L CNN "MPN"
-F 7 "Capacitors" H -1800 10800 50  0001 L CNN "Category"
-F 8 "Ceramic Capacitors" H -1800 10900 50  0001 L CNN "Family"
-F 9 "0.1uF" V 1300 6200 50  0000 L CNN "Capacitance"
-F 10 "±20%" V 1300 6450 50  0000 L CNN "Tolerance"
-F 11 "25V" V 1400 6200 50  0000 L CNN "Voltage"
-F 12 "X7R" V 1400 6450 50  0000 L CNN "Dielectric"
-F 13 "EIA0402" V 1500 6200 50  0000 L CNN "Package"
+F 3 "${KEMET_MLCC_BASE}C0402C104K4PACTU" H -1800 10500 50  0001 L CNN
+F 4 "Digikey" H 1500 6050 50  0001 L CNN "Vendor"
+F 5 "399-7762-1-ND" H 1500 6050 50  0001 L CNN "Vendor_PN"
+F 6 "KEMET" H 1900 6950 50  0001 L CNN "Manufacturer"
+F 7 "C0402C104K4PACTU" H 1900 6850 50  0001 L CNN "MPN"
+F 8 "Capacitors" H -1800 10800 50  0001 L CNN "Category"
+F 9 "Ceramic Capacitors" H -1800 10900 50  0001 L CNN "Family"
+F 10 "Yes" H 1500 6050 50  0001 L CNN "Fit"
+F 11 "0.1uF" V 1300 6200 50  0000 L CNN "Capacitance"
+F 12 "±10%" V 1300 6450 50  0000 L CNN "Tolerance"
+F 13 "16V" V 1400 6200 50  0000 L CNN "Voltage"
+F 14 "X5R" V 1400 6450 50  0000 L CNN "Dielectric"
+F 15 "EIA0402" V 1500 6200 50  0000 L CNN "Package"
 	1    1500 6050
 	0    1    1    0   
 $EndComp
@@ -155,17 +157,19 @@ P 2950 6750
 F 0 "R?" V 2750 6850 50  0000 L CNN
 F 1 "RES-EIA0402" H 3750 7650 50  0001 L CNN
 F 2 "footprints_generic:RESC100X50X40L25NN" H -350 11100 50  0001 L CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H -350 11200 50  0001 L CNN
-F 4 "541-4011-1-ND" H 3750 7550 50  0001 L CNN "Digi-Key_PN"
-F 5 "Vishay Dale" H 3750 7450 50  0001 L CNN "Manufacturer"
-F 6 "CRCW0402100KJNEDC" H 3750 7350 50  0001 L CNN "MPN"
-F 7 "Resistors" H -350 11500 50  0001 L CNN "Category"
-F 8 "Chip Resistor - Surface Mount" H -350 11600 50  0001 L CNN "Family"
-F 9 "100k" V 2850 6850 50  0000 L CNN "Resistance"
-F 10 "±5%" V 2850 7050 50  0000 L CNN "Tolerance"
-F 11 "1/16W" V 2950 6850 50  0000 L CNN "Power"
-F 12 "50V" H 2950 6965 50  0001 L CNN "Voltage"
-F 13 "EIA0402" V 3050 6850 50  0000 L CNN "Package"
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ104X" H -350 11200 50  0001 L CNN
+F 4 "Digikey" H 2950 6750 50  0001 L CNN "Vendor"
+F 5 "P100KJCT-ND" H 2950 6750 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 3750 7450 50  0001 L CNN "Manufacturer"
+F 7 "ERJ-2GEJ104X" H 3750 7350 50  0001 L CNN "MPN"
+F 8 "Resistors" H -350 11500 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H -350 11600 50  0001 L CNN "Family"
+F 10 "Yes" H 2950 6750 50  0001 C CNN "Fit"
+F 11 "100k" V 2850 6850 50  0000 L CNN "Resistance"
+F 12 "±5%" V 2850 7050 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 2950 6850 50  0000 L CNN "Power"
+F 14 "N/A" H 2950 6965 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 3050 6850 50  0000 L CNN "Package"
 	1    2950 6750
 	0    1    1    0   
 $EndComp
@@ -195,52 +199,10 @@ F 3 "" H 3550 7000 50  0001 C CNN
 	1    3550 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
-U 1 1 60319187
-P 3550 6750
-F 0 "R?" V 3350 6850 50  0000 L CNN
-F 1 "RES-EIA0402" H 4350 7650 50  0001 L CNN
-F 2 "footprints_generic:RESC100X50X40L25NN" H 250 11100 50  0001 L CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 250 11200 50  0001 L CNN
-F 4 "541-4011-1-ND" H 4350 7550 50  0001 L CNN "Digi-Key_PN"
-F 5 "Vishay Dale" H 4350 7450 50  0001 L CNN "Manufacturer"
-F 6 "CRCW0402100KJNEDC" H 4350 7350 50  0001 L CNN "MPN"
-F 7 "Resistors" H 250 11500 50  0001 L CNN "Category"
-F 8 "Chip Resistor - Surface Mount" H 250 11600 50  0001 L CNN "Family"
-F 9 "100k" V 3450 6850 50  0000 L CNN "Resistance"
-F 10 "±5%" V 3450 7050 50  0000 L CNN "Tolerance"
-F 11 "1/16W" V 3550 6850 50  0000 L CNN "Power"
-F 12 "50V" H 3550 6965 50  0001 L CNN "Voltage"
-F 13 "EIA0402" V 3650 6850 50  0000 L CNN "Package"
-	1    3550 6750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2950 7000 2950 6950
 Wire Wire Line
 	1850 7000 2950 7000
-$Comp
-L gz_Ceramic-Capacitors:CAP-EIA0402 C?
-U 1 1 6034CD96
-P 4300 2550
-F 0 "C?" V 4000 2700 50  0000 L CNN
-F 1 "CAP-EIA0402" H 4700 3650 50  0001 L CNN
-F 2 "footprints_generic:CAPC100X50X55L30N" H 1000 6900 50  0001 L CNN
-F 3 "https://ds.murata.co.jp/simsurfing/mlcc.html?lcid=en-us" H 1000 7000 50  0001 L CNN
-F 4 "490-10018-1-ND" H 4700 3550 50  0001 L CNN "Digi-Key_PN"
-F 5 "Murata Electronics" H 4700 3450 50  0001 L CNN "Manufacturer"
-F 6 "GRM155R61E105MA12D" H 4700 3350 50  0001 L CNN "MPN"
-F 7 "Capacitors" H 1000 7300 50  0001 L CNN "Category"
-F 8 "Ceramic Capacitors" H 1000 7400 50  0001 L CNN "Family"
-F 9 "1uF" V 4100 2700 50  0000 L CNN "Capacitance"
-F 10 "±20%" V 4100 2900 50  0000 L CNN "Tolerance"
-F 11 "25V" V 4200 2700 50  0000 L CNN "Voltage"
-F 12 "X5R" V 4200 2900 50  0000 L CNN "Dielectric"
-F 13 "EIA0402" V 4300 2700 50  0000 L CNN "Package"
-	1    4300 2550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3800 2300 4300 2300
 Wire Wire Line
@@ -273,48 +235,6 @@ Wire Wire Line
 	3800 2600 3950 2600
 Wire Wire Line
 	3950 2600 3950 2700
-$Comp
-L gz_Ceramic-Capacitors:CAP-EIA0402 C?
-U 1 1 6035CBB5
-P 4150 1700
-F 0 "C?" V 4000 1850 50  0000 L CNN
-F 1 "CAP-EIA0402" H 4550 2800 50  0001 L CNN
-F 2 "footprints_generic:CAPC100X50X55L30N" H 850 6050 50  0001 L CNN
-F 3 "https://ds.murata.co.jp/simsurfing/mlcc.html?lcid=en-us" H 850 6150 50  0001 L CNN
-F 4 "490-13341-1-ND" H 4550 2700 50  0001 L CNN "Digi-Key_PN"
-F 5 "Murata Electronics" H 4550 2600 50  0001 L CNN "Manufacturer"
-F 6 "GRM155R71E104ME14D" H 4550 2500 50  0001 L CNN "MPN"
-F 7 "Capacitors" H 850 6450 50  0001 L CNN "Category"
-F 8 "Ceramic Capacitors" H 850 6550 50  0001 L CNN "Family"
-F 9 "0.1uF" V 4100 1850 50  0000 L CNN "Capacitance"
-F 10 "±20%" V 4100 2100 50  0000 L CNN "Tolerance"
-F 11 "25V" V 4200 1850 50  0000 L CNN "Voltage"
-F 12 "X7R" V 4200 2050 50  0000 L CNN "Dielectric"
-F 13 "EIA0402" V 4300 1850 50  0000 L CNN "Package"
-	1    4150 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L gz_Ceramic-Capacitors:CAP-EIA0402 C?
-U 1 1 60360F34
-P 4950 1700
-F 0 "C?" V 4800 1850 50  0000 L CNN
-F 1 "CAP-EIA0402" H 5350 2800 50  0001 L CNN
-F 2 "footprints_generic:CAPC100X50X55L30N" H 1650 6050 50  0001 L CNN
-F 3 "https://ds.murata.co.jp/simsurfing/mlcc.html?lcid=en-us" H 1650 6150 50  0001 L CNN
-F 4 "490-13341-1-ND" H 5350 2700 50  0001 L CNN "Digi-Key_PN"
-F 5 "Murata Electronics" H 5350 2600 50  0001 L CNN "Manufacturer"
-F 6 "GRM155R71E104ME14D" H 5350 2500 50  0001 L CNN "MPN"
-F 7 "Capacitors" H 1650 6450 50  0001 L CNN "Category"
-F 8 "Ceramic Capacitors" H 1650 6550 50  0001 L CNN "Family"
-F 9 "0.1uF" V 4900 1850 50  0000 L CNN "Capacitance"
-F 10 "±20%" V 4900 2100 50  0000 L CNN "Tolerance"
-F 11 "25V" V 5000 1850 50  0000 L CNN "Voltage"
-F 12 "X7R" V 5000 2050 50  0000 L CNN "Dielectric"
-F 13 "EIA0402" V 5100 1850 50  0000 L CNN "Package"
-	1    4950 1700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3800 1500 3900 1500
 Wire Wire Line
@@ -428,5 +348,97 @@ F 9 "Yes" H 1700 4850 50  0001 L CNN "Fit"
 F 10 "Digikey" H 3700 5500 50  0001 L CNN "Vendor"
 	4    1950 4000
 	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Ceramic-Capacitors:CAP-EIA0402 C?
+U 1 1 604747FE
+P 4950 1700
+F 0 "C?" V 4800 1850 50  0000 L CNN
+F 1 "CAP-EIA0402" H 5350 2800 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H 1650 6050 50  0001 L CNN
+F 3 "${KEMET_MLCC_BASE}C0402C104K4PACTU" H 1650 6150 50  0001 L CNN
+F 4 "Digikey" H 4950 1700 50  0001 L CNN "Vendor"
+F 5 "399-7762-1-ND" H 4950 1700 50  0001 L CNN "Vendor_PN"
+F 6 "KEMET" H 5350 2600 50  0001 L CNN "Manufacturer"
+F 7 "C0402C104K4PACTU" H 5350 2500 50  0001 L CNN "MPN"
+F 8 "Capacitors" H 1650 6450 50  0001 L CNN "Category"
+F 9 "Ceramic Capacitors" H 1650 6550 50  0001 L CNN "Family"
+F 10 "Yes" H 4950 1700 50  0001 L CNN "Fit"
+F 11 "0.1uF" V 4900 1850 50  0000 L CNN "Capacitance"
+F 12 "±10%" V 4900 2100 50  0000 L CNN "Tolerance"
+F 13 "16V" V 5000 1850 50  0000 L CNN "Voltage"
+F 14 "X5R" V 5000 2050 50  0000 L CNN "Dielectric"
+F 15 "EIA0402" V 5100 1850 50  0000 L CNN "Package"
+	1    4950 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Ceramic-Capacitors:CAP-EIA0402 C?
+U 1 1 6047536E
+P 4150 1700
+F 0 "C?" V 4000 1850 50  0000 L CNN
+F 1 "CAP-EIA0402" H 4550 2800 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H 850 6050 50  0001 L CNN
+F 3 "${KEMET_MLCC_BASE}C0402C104K4PACTU" H 850 6150 50  0001 L CNN
+F 4 "Digikey" H 4150 1700 50  0001 L CNN "Vendor"
+F 5 "399-7762-1-ND" H 4150 1700 50  0001 L CNN "Vendor_PN"
+F 6 "KEMET" H 4550 2600 50  0001 L CNN "Manufacturer"
+F 7 "C0402C104K4PACTU" H 4550 2500 50  0001 L CNN "MPN"
+F 8 "Capacitors" H 850 6450 50  0001 L CNN "Category"
+F 9 "Ceramic Capacitors" H 850 6550 50  0001 L CNN "Family"
+F 10 "Yes" H 4150 1700 50  0001 L CNN "Fit"
+F 11 "0.1uF" V 4100 1850 50  0000 L CNN "Capacitance"
+F 12 "±10%" V 4100 2100 50  0000 L CNN "Tolerance"
+F 13 "16V" V 4200 1850 50  0000 L CNN "Voltage"
+F 14 "X5R" V 4200 2050 50  0000 L CNN "Dielectric"
+F 15 "EIA0402" V 4300 1850 50  0000 L CNN "Package"
+	1    4150 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Ceramic-Capacitors:CAP-EIA0402 C?
+U 1 1 6047DD1D
+P 4300 2550
+F 0 "C?" V 4150 2700 50  0000 L CNN
+F 1 "CAP-EIA0402" H 4700 3650 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H 1000 6900 50  0001 L CNN
+F 3 "${KEMET_MLCC_BASE}C0402C105K4PACTU" H 1000 7000 50  0001 L CNN
+F 4 "Digikey" H 4300 2550 50  0001 L CNN "Vendor"
+F 5 "399-12289-1-ND" H 4300 2550 50  0001 L CNN "Vendor_PN"
+F 6 "KEMET" H 4700 3450 50  0001 L CNN "Manufacturer"
+F 7 "C0402C105K4PACTU" H 4700 3350 50  0001 L CNN "MPN"
+F 8 "Capacitors" H 1000 7300 50  0001 L CNN "Category"
+F 9 "Ceramic Capacitors" H 1000 7400 50  0001 L CNN "Family"
+F 10 "Yes" H 4300 2550 50  0001 L CNN "Fit"
+F 11 "1uF" V 4250 2700 50  0000 L CNN "Capacitance"
+F 12 "±10%" V 4250 2950 50  0000 L CNN "Tolerance"
+F 13 "16V" V 4350 2700 50  0000 L CNN "Voltage"
+F 14 "X5R" V 4350 2900 50  0000 L CNN "Dielectric"
+F 15 "EIA0402" V 4450 2700 50  0000 L CNN "Package"
+	1    4300 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 60486022
+P 3550 6750
+F 0 "R?" V 3350 6850 50  0000 L CNN
+F 1 "RES-EIA0402" H 4350 7650 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 250 11100 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ104X" H 250 11200 50  0001 L CNN
+F 4 "Digikey" H 3550 6750 50  0001 L CNN "Vendor"
+F 5 "P100KJCT-ND" H 3550 6750 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 4350 7450 50  0001 L CNN "Manufacturer"
+F 7 "ERJ-2GEJ104X" H 4350 7350 50  0001 L CNN "MPN"
+F 8 "Resistors" H 250 11500 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 250 11600 50  0001 L CNN "Family"
+F 10 "Yes" H 3550 6750 50  0001 C CNN "Fit"
+F 11 "100k" V 3450 6850 50  0000 L CNN "Resistance"
+F 12 "±5%" V 3450 7050 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 3550 6850 50  0000 L CNN "Power"
+F 14 "N/A" H 3550 6965 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 3650 6850 50  0000 L CNN "Package"
+	1    3550 6750
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
