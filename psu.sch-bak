@@ -19,7 +19,7 @@ U 1 1 603B74EE
 P 1450 1900
 F 0 "J?" H 1250 2750 50  0000 L CNN
 F 1 "Molex-1050170001" H 1950 2850 50  0001 L CNN
-F 2 "gz-connectors:Molex-1050170001" H 1950 2750 50  0001 L CNN
+F 2 "footprints:Molex-1050170001" H 1950 2750 50  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf" H 1650 2200 50  0001 L CNN
 F 4 "Digikey" H 1450 1900 50  0001 L CNN "Vendor"
 F 5 "WM1399CT-ND" H 1450 1900 50  0001 L CNN "Vendor_PN"
@@ -550,5 +550,28 @@ F 14 "N/A" H 9600 1915 50  0001 L CNN "Voltage"
 F 15 "EIA0603" H 9400 1800 50  0000 L CNN "Package"
 	1    9600 1700
 	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Ceramic-Capacitors:CAP-EIA0402 C?
+U 1 1 605289DC
+P 6550 3850
+F 0 "C?" V 6400 4150 50  0000 L CNN
+F 1 "CAP-EIA0402" H 6950 4950 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H 3250 8200 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0402C104K4PACTU.pdf" H 3250 8300 50  0001 L CNN
+F 4 "Digikey" H 6550 3850 50  0001 L CNN "Vendor"
+F 5 "399-7762-1-ND" H 6550 3850 50  0001 L CNN "Vendor_PN"
+F 6 "KEMET" H 6950 4750 50  0001 L CNN "Manufacturer"
+F 7 "C0402C104K4PACTU" H 6950 4650 50  0001 L CNN "MPN"
+F 8 "Capacitors" H 3250 8600 50  0001 L CNN "Category"
+F 9 "Ceramic Capacitors" H 3250 8700 50  0001 L CNN "Family"
+F 10 "NF" V 6400 4000 50  0000 L CNN "Fit"
+F 11 "0.1uF" V 6500 4000 50  0000 L CNN "Capacitance"
+F 12 "±10%" V 6500 4250 50  0000 L CNN "Tolerance"
+F 13 "16V" V 6600 4000 50  0000 L CNN "Voltage"
+F 14 "X5R" V 6600 4250 50  0000 L CNN "Dielectric"
+F 15 "EIA0402" V 6700 4000 50  0000 L CNN "Package"
+	1    6550 3850
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

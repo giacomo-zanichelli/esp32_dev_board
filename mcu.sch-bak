@@ -23,11 +23,13 @@ F 0 "U?" H 1000 7150 50  0000 R CNN
 F 1 "Espressif_ESP32-D0WDQ6-V3" H 2700 7800 50  0001 L CNN
 F 2 "footprints:Espressif-ESP32_QFN49P40_600X600X90L40X20T430N" H 2700 7700 50  0001 L CNN
 F 3 "${DATASHEETS}/esp32_datasheet_en.pdf" H 1900 7050 50  0001 L CNN
-F 4 "1970-1026-1-ND" H 2700 7600 50  0001 L CNN "Digi-Key_PN"
-F 5 "GigaDevice" V 900 6800 50  0000 R CNN "Manufacturer"
-F 6 "GD25Q64CSIGR" V 1000 6950 50  0000 R CNN "MPN"
-F 7 "Integrated Circuits (ICs)" H 2700 7500 50  0001 L CNN "Category"
-F 8 "Memory" H 2700 7400 50  0001 L CNN "Family"
+F 4 "Digikey" H 1550 6750 50  0001 L CNN "Vendor"
+F 5 "1970-1026-1-ND" H 1550 6750 50  0001 L CNN "Vendor_PN"
+F 6 "GigaDevice" V 900 6800 50  0000 R CNN "Manufacturer"
+F 7 "GD25Q64CSIGR" V 1000 6950 50  0000 R CNN "MPN"
+F 8 "Integrated Circuits (ICs)" H 2700 7500 50  0001 L CNN "Category"
+F 9 "Memory" H 2700 7400 50  0001 L CNN "Family"
+F 10 "Yes" H 1550 6750 50  0001 L CNN "Fit"
 	1    1550 6750
 	1    0    0    -1  
 $EndComp
