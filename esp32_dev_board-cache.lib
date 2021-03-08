@@ -8,16 +8,18 @@ F0 "C" 200 400 50 H V L CNN
 F1 "gz_Aluminum-Electrolytic-Capacitors_WE-865080245009" 900 1600 50 H I L CNN
 F2 "footprints_generic:WE-86508xx450xx_CAPAE660X770D730L255X65N" 900 1500 50 H I L CNN
 F3 "" 900 1300 50 H I L CNN
-F4 "732-8492-1-ND" 900 1400 50 H I L CNN "Digi-Key_PN"
+F4 "732-8492-1-ND" 1250 1400 50 H I L CNN "Vendor_PN"
 F5 "Würth Elektronik" 900 1300 50 H I L CNN "Manufacturer"
-F6 "865080245009" 900 1200 50 H I L CNN "MPN"
-F7 "Capacitors" 900 1100 50 H I L CNN "Category"
-F8 "Aluminum Electrolytic Capacitors" 900 1000 50 H I L CNN "Family"
+F6 "865080245009" 1600 1300 50 H I L CNN "MPN"
+F7 "Capacitors" 900 1200 50 H I L CNN "Category"
+F8 "Aluminum Electrolytic Capacitors" 900 1100 50 H I L CNN "Family"
 F9 "220uF" 200 300 50 H V L CNN "Capacitance"
 F10 "±20%" 450 300 50 H V L CNN "Tolerance"
 F11 "10V" 200 200 50 H V L CNN "Voltage"
 F12 "ESR" 400 200 50 H I L CNN "ESR"
 F13 "V-Chip SMT D6.3x L7.7" 200 100 50 H V L CNN "Package"
+F14 "Digikey" 900 1400 50 H I L CNN "Vendor"
+F15 "Yes" 400 400 50 H I L CNN "Fit"
 DRAW
 S -100 35 100 20 0 1 0 N
 S 100 -35 -100 -20 0 1 0 F
@@ -120,16 +122,18 @@ F0 "R" -300 450 50 H V L CNN
 F1 "gz_Chip-Resistors-Surface-Mount_RES-EIA0402" 800 900 50 H I L CNN
 F2 "footprints_generic:RESC100X50X40L25NN" -3300 4350 50 H I L CNN
 F3 "" -3300 4450 50 H I L CNN
-F4 "Digi-Key_PN" 800 800 50 H I L CNN "Digi-Key_PN"
-F5 "Manufacturer" 800 700 50 H I L CNN "Manufacturer"
-F6 "MPN" 800 600 50 H I L CNN "MPN"
-F7 "Resistors" -3300 4750 50 H I L CNN "Category"
-F8 "Chip Resistor - Surface Mount" -3300 4850 50 H I L CNN "Family"
-F9 "<resistance>" -300 350 50 H V L CNN "Resistance"
-F10 "± <tolerance>" 300 350 50 H V L CNN "Tolerance"
-F11 "<power>" -300 250 50 H V L CNN "Power"
-F12 "<voltage>" 100 250 50 H V L CNN "Voltage"
-F13 "EIA0402" -300 150 50 H V L CNN "Package"
+F4 "Digikey" 800 800 50 H I L CNN "Vendor"
+F5 "Digikey PN" 1150 800 50 H I L CNN "Vendor_PN"
+F6 "Manufacturer" 800 700 50 H I L CNN "Manufacturer"
+F7 "MPN" 1400 700 50 H I L CNN "MPN"
+F8 "Resistors" -3300 4750 50 H I L CNN "Category"
+F9 "Chip Resistor - Surface Mount" -3300 4850 50 H I L CNN "Family"
+F10 "Yes" -50 450 50 H I L CNN "Fit"
+F11 "<resistance>" -300 350 50 H V L CNN "Resistance"
+F12 "± <tolerance>" 300 350 50 H V L CNN "Tolerance"
+F13 "<power>" -300 250 50 H V L CNN "Power"
+F14 "<voltage>" 100 250 50 H V L CNN "Voltage"
+F15 "EIA0402" -300 150 50 H V L CNN "Package"
 DRAW
 P 3 0 1 0 100 0 125 -50 150 0 N
 P 7 0 1 0 -150 0 -125 50 -75 -50 -25 50 25 -50 75 50 100 0 N
@@ -145,16 +149,18 @@ F0 "R" -300 450 50 H V L CNN
 F1 "gz_Chip-Resistors-Surface-Mount_RES-EIA0603" 800 900 50 H I L CNN
 F2 "footprints_generic:RESC160X85X55L30N" -3300 4350 50 H I L CNN
 F3 "" -3300 4450 50 H I L CNN
-F4 "Digi-Key_PN" 800 800 50 H I L CNN "Digi-Key_PN"
-F5 "Manufacturer" 800 700 50 H I L CNN "Manufacturer"
-F6 "MPN" 800 600 50 H I L CNN "MPN"
-F7 "Resistors" -3300 4750 50 H I L CNN "Category"
-F8 "Chip Resistor - Surface Mount" -3300 4850 50 H I L CNN "Family"
-F9 "<resistance>" -300 350 50 H V L CNN "Resistance"
-F10 "± <tolerance>" 300 350 50 H V L CNN "Tolerance"
-F11 "<power>" -300 250 50 H V L CNN "Power"
-F12 "<voltage>" 100 250 50 H V L CNN "Voltage"
-F13 "EIA0603" -300 150 50 H V L CNN "Package"
+F4 "Digikey" 800 800 50 H I L CNN "Vendor"
+F5 "Digikey PN" 1150 800 50 H I L CNN "Vendor_PN"
+F6 "Manufacturer" 800 700 50 H I L CNN "Manufacturer"
+F7 "MPN" 1400 700 50 H I L CNN "MPN"
+F8 "Resistors" -3300 4750 50 H I L CNN "Category"
+F9 "Chip Resistor - Surface Mount" -3300 4850 50 H I L CNN "Family"
+F10 "Yes" -50 450 50 H I L CNN "Fit"
+F11 "<resistance>" -300 350 50 H V L CNN "Resistance"
+F12 "± <tolerance>" 300 350 50 H V L CNN "Tolerance"
+F13 "<power>" -300 250 50 H V L CNN "Power"
+F14 "<voltage>" 100 250 50 H V L CNN "Voltage"
+F15 "EIA0603" -300 150 50 H V L CNN "Package"
 DRAW
 P 3 0 1 0 100 0 125 -50 150 0 N
 P 7 0 1 0 -150 0 -125 50 -75 -50 -25 50 25 -50 75 50 100 0 N
@@ -170,15 +176,17 @@ F0 "FB" -250 600 50 H V L CNN
 F1 "gz_Ferrite-Beads-and-Chips_FB-EIA0603" 600 1400 50 H I L CNN
 F2 "footprints_generic:BEADC160X80X95L40N" 600 1300 50 H I L CNN
 F3 "" -3300 4450 50 H I L CNN
-F4 "Digi-Key_PN" 600 1200 50 H I L CNN "Digi-Key_PN"
-F5 "Murata Electronics" 600 1100 50 H I L CNN "Manufacturer"
-F6 "MPN" 600 1000 50 H I L CNN "MPN"
-F7 "Filters" 600 900 50 H I L CNN "Category"
-F8 "Ferrite Beads and Chips" 600 800 50 H I L CNN "Family"
-F9 "<imp> @ <freq>" -250 500 50 H V L CNN "Impedance"
-F10 "Current" -250 400 50 H V L CNN "Current"
-F11 "DCR" 100 400 50 H V L CNN "DCR"
-F12 "EIA0603" -250 300 50 H V L CNN "Package"
+F4 "Digikey" 600 1200 50 H I L CNN "Vendor"
+F5 "Digikey PN" 950 1200 50 H I L CNN "Vendor_PN"
+F6 "Murata Electronics" 600 1100 50 H I L CNN "Manufacturer"
+F7 "MPN" 1400 1100 50 H I L CNN "MPN"
+F8 "Filters" 600 1000 50 H I L CNN "Category"
+F9 "Ferrite Beads and Chips" 600 900 50 H I L CNN "Family"
+F10 "Yes" 0 600 50 H I L CNN "Fit"
+F11 "<imp> @ <freq>" -250 500 50 H V L CNN "Impedance"
+F12 "Current" -250 400 50 H V L CNN "Current"
+F13 "DCR" 100 400 50 H V L CNN "DCR"
+F14 "EIA0603" -250 300 50 H V L CNN "Package"
 DRAW
 C -100 0 0 0 1 0 N
 S 100 25 -50 -25 0 0 0 N
@@ -191,15 +199,17 @@ ENDDEF
 # gz_Memory_GigaDevice-GD25Q64CSIGR
 #
 DEF gz_Memory_GigaDevice-GD25Q64CSIGR U 0 50 Y Y 1 F N
-F0 "U" 150 400 50 H V L CNN
+F0 "U" -150 400 50 H V L CNN
 F1 "gz_Memory_GigaDevice-GD25Q64CSIGR" 1150 1050 50 H I L CNN
 F2 "footprints:GigaDevice-GD25Q64CS_SOIC8P127_523X790X216L67X41N" 1150 950 50 H I L CNN
 F3 "" 350 300 50 H I L CNN
-F4 "1970-1026-1-ND" 1150 850 50 H I L CNN "Digi-Key_PN"
+F4 "1970-1026-1-ND" 1500 850 50 H I L CNN "Vendor_PN"
 F5 "GigaDevice" -700 -300 50 V V L CNN "Manufacturer"
 F6 "GD25Q64CSIGR" -600 -300 50 V V L CNN "MPN"
 F7 "Integrated Circuits (ICs)" 1150 750 50 H I L CNN "Category"
 F8 "Memory" 1150 650 50 H I L CNN "Family"
+F9 "Yes" 50 400 50 H I L CNN "Fit"
+F10 "Digikey" 1150 850 50 H I L CNN "Vendor"
 DRAW
 S 200 350 -500 -350 0 1 0 N
 X ~CS 1 300 -250 100 L 50 50 1 1 I
@@ -220,11 +230,13 @@ F0 "U" -250 400 50 H V L CNN
 F1 "gz_PMIC-Voltage-Regulators-Linear_TI-TLV75533PDBVR" 750 1150 50 H I L CNN
 F2 "footprints:TI-TLV755_SOT23-5P95_280X145L45X40N" 750 1050 50 H I L CNN
 F3 "" 350 300 50 H I L CNN
-F4 "296-50411-1-ND" 750 950 50 H I L CNN "Digi-Key_PN"
+F4 "296-50411-1-ND" 1100 950 50 H I L CNN "Vendor_PN"
 F5 "Texas Instruments" -350 -300 50 H V L CNN "Manufacturer"
 F6 "TLV75533PDBVR" -350 -400 50 H V L CNN "MPN"
 F7 "Integrated Circuits (ICs)" 750 850 50 H I L CNN "Category"
 F8 "PMIC - Voltage Regulators - Linear" 750 750 50 H I L CNN "Family"
+F9 "Digikey" 750 950 50 H I L CNN "Vendor"
+F10 "Yes" 0 400 50 H I L CNN "Fit"
 DRAW
 S 200 350 -300 -150 0 1 0 N
 P 4 0 1 0 -285 -75 -260 -75 -260 -10 -235 -10 N
@@ -297,11 +309,13 @@ F0 "U" -500 850 50 H V L CNN
 F1 "gz_RF-Transceiver-ICs_Espressif_ESP32-D0WDQ6-V3" 1750 1700 50 H I L CNN
 F2 "footprints:Espressif-ESP32_QFN49P40_600X600X90L40X20T430N" 1750 1600 50 H I L CNN
 F3 "" 1350 1300 50 H I L CNN
-F4 "1904-ESP32-D0WDQ6-V3CT-ND" 1750 1500 50 H I L CNN "Digi-Key_PN"
+F4 "1904-ESP32-D0WDQ6-V3CT-ND" 2100 1500 50 H I L CNN "Vendor_PN"
 F5 "Espressif Systems" -250 -1250 50 H V L CNN "Manufacturer"
 F6 "ESP32-D0WDQ6-V3" -250 -1350 50 H V L CNN "MPN"
 F7 "RF/IF and RFID" 1750 1400 50 H I L CNN "Category"
 F8 "RF Transceiver ICs" 1750 1300 50 H I L CNN "Family"
+F9 "Yes" -250 850 50 H I L CNN "Fit"
+F10 "Digikey" 1750 1500 50 H I L CNN "Vendor"
 DRAW
 T 900 -400 0 50 0 1 0 "Analog Domain" Normal 0 C C
 T 0 -200 -100 50 0 1 0 LDO Normal 0 C C
@@ -423,11 +437,13 @@ F0 "J" -150 550 50 H V L CNN
 F1 "gz_USB-DVI-HDMI-Connectors_Molex-1050170001" 500 950 50 H I L CNN
 F2 "footprints:Molex-1050170001" 500 850 50 H I L CNN
 F3 "" 200 300 50 H I L CNN
-F4 "WM1399CT-ND" 500 750 50 H I L CNN "Digi-Key_PN"
+F4 "WM1399CT-ND" 500 750 50 H I L CNN "Vendor_PN"
 F5 "Molex" -400 -250 50 V V L CNN "Manufacturer"
 F6 "1050170001" -300 -250 50 V V L CNN "MPN"
 F7 "Connectors, Interconnects" 500 650 50 H I L CNN "Category"
 F8 "USB, DVI, HDMI Connectors" 500 550 50 H I L CNN "Family"
+F9 "Digikey" 0 0 50 H I L CNN "Vendor"
+F10 "Yes" 0 0 50 H I L CNN "Fit"
 DRAW
 S 35 -170 75 -230 1 1 0 F
 S 35 -130 75 -70 1 1 0 F
