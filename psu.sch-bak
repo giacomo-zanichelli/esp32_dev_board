@@ -278,54 +278,54 @@ $EndComp
 $Comp
 L gz_Power-Symbols:PSU #PWR?
 U 1 1 6046A224
-P 10100 2850
-F 0 "#PWR?" H 10100 2600 50  0001 C CNN
-F 1 "PSU" H 10105 2677 50  0000 C CNN
-F 2 "" H 10100 2850 50  0001 C CNN
-F 3 "" H 10100 2850 50  0001 C CNN
-	1    10100 2850
+P 8750 2400
+F 0 "#PWR?" H 8750 2150 50  0001 C CNN
+F 1 "PSU" H 8755 2227 50  0000 C CNN
+F 2 "" H 8750 2400 50  0001 C CNN
+F 3 "" H 8750 2400 50  0001 C CNN
+	1    8750 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L gz_Power-Symbols:GND #PWR?
 U 1 1 6046B337
-P 9500 2850
-F 0 "#PWR?" H 9500 2600 50  0001 C CNN
-F 1 "GND" H 9505 2677 50  0000 C CNN
-F 2 "" H 9500 2850 50  0001 C CNN
-F 3 "" H 9500 2850 50  0001 C CNN
-	1    9500 2850
+P 8150 2400
+F 0 "#PWR?" H 8150 2150 50  0001 C CNN
+F 1 "GND" H 8155 2227 50  0000 C CNN
+F 2 "" H 8150 2400 50  0001 C CNN
+F 3 "" H 8150 2400 50  0001 C CNN
+	1    8150 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L gz_Chip-Resistors-Surface-Mount:RES-EIA0603 R?
 U 1 1 6046C6CC
-P 9800 2750
-F 0 "R?" H 9600 2850 50  0000 L CNN
-F 1 "RES-EIA0603" H 10600 3650 50  0001 L CNN
-F 2 "footprints_generic:RESC160X85X55L30N" H 6500 7100 50  0001 L CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 6500 7200 50  0001 L CNN
-F 4 "P0.0GCT-ND" H 10600 3550 50  0001 L CNN "Digi-Key_PN"
-F 5 "Panasonic Electronic Components" H 10600 3450 50  0001 L CNN "Manufacturer"
-F 6 "ERJ-3GEY0R00V" H 10600 3350 50  0001 L CNN "MPN"
-F 7 "Resistors" H 6500 7500 50  0001 L CNN "Category"
-F 8 "Chip Resistor - Surface Mount" H 6500 7600 50  0001 L CNN "Family"
-F 9 "0R" H 9600 2650 50  0000 L CNN "Resistance"
-F 10 "N/A" H 9800 3147 50  0001 L CNN "Tolerance"
-F 11 "1/10W" H 9750 2650 50  0000 L CNN "Power"
-F 12 "N/A" H 9800 2965 50  0001 L CNN "Voltage"
-F 13 "EIA0603" H 9600 2550 50  0000 L CNN "Package"
-	1    9800 2750
+P 8450 2300
+F 0 "R?" H 8250 2400 50  0000 L CNN
+F 1 "RES-EIA0603" H 9250 3200 50  0001 L CNN
+F 2 "footprints_generic:RESC160X85X55L30N" H 5150 6650 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 5150 6750 50  0001 L CNN
+F 4 "P0.0GCT-ND" H 9250 3100 50  0001 L CNN "Digi-Key_PN"
+F 5 "Panasonic Electronic Components" H 9250 3000 50  0001 L CNN "Manufacturer"
+F 6 "ERJ-3GEY0R00V" H 9250 2900 50  0001 L CNN "MPN"
+F 7 "Resistors" H 5150 7050 50  0001 L CNN "Category"
+F 8 "Chip Resistor - Surface Mount" H 5150 7150 50  0001 L CNN "Family"
+F 9 "0R" H 8250 2200 50  0000 L CNN "Resistance"
+F 10 "N/A" H 8450 2697 50  0001 L CNN "Tolerance"
+F 11 "1/10W" H 8400 2200 50  0000 L CNN "Power"
+F 12 "N/A" H 8450 2515 50  0001 L CNN "Voltage"
+F 13 "EIA0603" H 8250 2100 50  0000 L CNN "Package"
+	1    8450 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 2850 9500 2750
+	8150 2400 8150 2300
 Wire Wire Line
-	9500 2750 9600 2750
+	8150 2300 8250 2300
 Wire Wire Line
-	10000 2750 10100 2750
+	8650 2300 8750 2300
 Wire Wire Line
-	10100 2750 10100 2850
+	8750 2300 8750 2400
 Wire Wire Line
 	9250 2000 9250 2100
 Wire Wire Line
@@ -343,6 +343,65 @@ F 3 "" H 8850 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8850 2000 8850 2100
+$Comp
+L gz_Ceramic-Capacitors:CAP-EIA0402 C?
+U 1 1 60483D8C
+P 7850 2950
+F 0 "C?" V 7700 3100 50  0000 L CNN
+F 1 "CAP-EIA0402" H 8250 4050 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H 4550 7300 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0402C104K4PACTU.pdf" H 4550 7400 50  0001 L CNN
+F 4 "399-7762-1-ND" H 8250 3950 50  0001 L CNN "Digi-Key_PN"
+F 5 "KEMET" H 8250 3850 50  0001 L CNN "Manufacturer"
+F 6 "C0402C104K4PACTU" H 8250 3750 50  0001 L CNN "MPN"
+F 7 "Capacitors" H 4550 7700 50  0001 L CNN "Category"
+F 8 "Ceramic Capacitors" H 4550 7800 50  0001 L CNN "Family"
+F 9 "0.1uF" V 7800 3100 50  0000 L CNN "Capacitance"
+F 10 "±10%" V 7800 3350 50  0000 L CNN "Tolerance"
+F 11 "16V" V 7900 3100 50  0000 L CNN "Voltage"
+F 12 "X5R" V 7900 3350 50  0000 L CNN "Dielectric"
+F 13 "EIA0402" V 8000 3100 50  0000 L CNN "Package"
+	1    7850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 60486E18
+P 7450 2750
+F 0 "R?" H 7550 2550 50  0000 L CNN
+F 1 "RES-EIA0402" H 8250 3650 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 4150 7100 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GEJ562X" H 4150 7200 50  0001 L CNN
+F 4 "P5.6KJCT-ND" H 8250 3550 50  0001 L CNN "Digi-Key_PN"
+F 5 "Panasonic Electronic Components" H 8250 3450 50  0001 L CNN "Manufacturer"
+F 6 "ERJ-2GEJ562X" H 8250 3350 50  0001 L CNN "MPN"
+F 7 "Resistors" H 4150 7500 50  0001 L CNN "Category"
+F 8 "Chip Resistor - Surface Mount" H 4150 7600 50  0001 L CNN "Family"
+F 9 "5.6k" H 7500 2650 50  0000 L CNN "Resistance"
+F 10 "±5%" H 7300 2650 50  0000 L CNN "Tolerance"
+F 11 "1/10W" H 7400 2850 50  0000 L CNN "Power"
+F 12 "50V" V 7586 2828 50  0001 L CNN "Voltage"
+F 13 "EIA0402" H 7350 2950 50  0000 L CNN "Package"
+	1    7450 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L gz_Power-Symbols:PSU #PWR?
+U 1 1 6047F48F
+P 7400 2100
+F 0 "#PWR?" H 7400 1850 50  0001 C CNN
+F 1 "PSU" H 7405 1927 50  0000 C CNN
+F 2 "" H 7400 2100 50  0001 C CNN
+F 3 "" H 7400 2100 50  0001 C CNN
+	1    7400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2050 7400 2100
+Wire Wire Line
+	7400 1700 7400 1850
+Wire Wire Line
+	8050 1700 7400 1700
 $Comp
 L gz_Ceramic-Capacitors:CAP-EIA0603 C?
 U 1 1 6047D273
@@ -365,41 +424,68 @@ F 13 "EIA0603" V 7500 1800 50  0000 R CNN "Package"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8050 1700 7400 1700
+	7850 2750 7850 2850
 Wire Wire Line
-	7400 1700 7400 1850
-Wire Wire Line
-	7400 2050 7400 2100
+	7850 3050 7850 3150
 $Comp
 L gz_Power-Symbols:PSU #PWR?
-U 1 1 6047F48F
-P 7400 2100
-F 0 "#PWR?" H 7400 1850 50  0001 C CNN
-F 1 "PSU" H 7405 1927 50  0000 C CNN
-F 2 "" H 7400 2100 50  0001 C CNN
-F 3 "" H 7400 2100 50  0001 C CNN
-	1    7400 2100
+U 1 1 604A90DD
+P 7850 3150
+F 0 "#PWR?" H 7850 2900 50  0001 C CNN
+F 1 "PSU" H 7855 2977 50  0000 C CNN
+F 2 "" H 7850 3150 50  0001 C CNN
+F 3 "" H 7850 3150 50  0001 C CNN
+	1    7850 3150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7850 2750 7650 2750
 $Comp
-L gz_Ceramic-Capacitors:CAP-EIA0402 C?
-U 1 1 60483D8C
-P 7800 2400
-F 0 "C?" V 7572 2528 50  0000 L CNN
-F 1 "CAP-EIA0402" H 8200 3500 50  0001 L CNN
-F 2 "footprints_generic:CAPC100X50X55L30N" H 4500 6750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C0402C104K4PACTU.pdf" H 4500 6850 50  0001 L CNN
-F 4 "399-7762-1-ND" H 8200 3400 50  0001 L CNN "Digi-Key_PN"
-F 5 "KEMET" H 8200 3300 50  0001 L CNN "Manufacturer"
-F 6 "C0402C104K4PACTU" H 8200 3200 50  0001 L CNN "MPN"
-F 7 "Capacitors" H 4500 7150 50  0001 L CNN "Category"
-F 8 "Ceramic Capacitors" H 4500 7250 50  0001 L CNN "Family"
-F 9 "0.1uF" V 7663 2528 50  0000 L CNN "Capacitance"
-F 10 "±10%" V 7754 2528 50  0000 L CNN "Tolerance"
-F 11 "16V" V 7845 2528 50  0000 L CNN "Voltage"
-F 12 "X5R" V 7936 2528 50  0000 L CNN "Dielectric"
-F 13 "EIA0402" V 8027 2528 50  0000 L CNN "Package"
-	1    7800 2400
-	0    1    1    0   
+L gz_Power-Symbols:5V #PWR?
+U 1 1 604B29D2
+P 5800 1600
+F 0 "#PWR?" H 5950 1550 50  0001 C CNN
+F 1 "5V" H 5805 1723 50  0000 C CNN
+F 2 "" H 5800 1600 50  0001 C CNN
+F 3 "" H 5800 1600 50  0001 C CNN
+	1    5800 1600
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5800 1600 5800 1700
+Connection ~ 5800 1700
+$Comp
+L gz_Power-Symbols:5V #PWR?
+U 1 1 604B3F53
+P 7400 1600
+F 0 "#PWR?" H 7550 1550 50  0001 C CNN
+F 1 "5V" H 7405 1723 50  0000 C CNN
+F 2 "" H 7400 1600 50  0001 C CNN
+F 3 "" H 7400 1600 50  0001 C CNN
+	1    7400 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1600 7400 1700
+Connection ~ 7400 1700
+$Comp
+L gz_Power-Symbols:5V #PWR?
+U 1 1 604B506C
+P 7100 2650
+F 0 "#PWR?" H 7250 2600 50  0001 C CNN
+F 1 "5V" H 7105 2773 50  0000 C CNN
+F 2 "" H 7100 2650 50  0001 C CNN
+F 3 "" H 7100 2650 50  0001 C CNN
+	1    7100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2650 7100 2750
+Wire Wire Line
+	7100 2750 7250 2750
+Wire Wire Line
+	8050 2000 7850 2000
+Wire Wire Line
+	7850 2000 7850 2750
+Connection ~ 7850 2750
 $EndSCHEMATC

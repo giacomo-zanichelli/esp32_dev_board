@@ -488,4 +488,18 @@ Wire Wire Line
 Wire Wire Line
 	7850 2000 7850 2750
 Connection ~ 7850 2750
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 604C2C38
+P 9250 1600
+F 0 "#PWR?" H 9400 1550 50  0001 C CNN
+F 1 "3V3" H 9255 1723 50  0000 C CNN
+F 2 "" H 9250 1600 50  0001 C CNN
+F 3 "" H 9250 1600 50  0001 C CNN
+	1    9250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1600 9250 1700
+Connection ~ 9250 1700
 $EndSCHEMATC
