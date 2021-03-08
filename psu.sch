@@ -239,4 +239,31 @@ F 8 "PMIC - Voltage Regulators - Linear" H 9200 2700 50  0001 L CNN "Family"
 	1    8450 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L gz_Ceramic-Capacitors:CAP-EIA0805 C?
+U 1 1 6046210B
+P 9250 1850
+F 0 "C?" V 9150 2050 50  0000 L CNN
+F 1 "CAP-EIA0805" H 9650 2950 50  0001 L CNN
+F 2 "footprints_generic:CAPC200X125X110L50N" H 5950 6200 50  0001 L CNN
+F 3 "https://www.kemet.com/specsheet/C0805C106K8RACTU" H 5950 6300 50  0001 L CNN
+F 4 "399-7411-1-ND" H 9650 2850 50  0001 L CNN "Digi-Key_PN"
+F 5 "KEMET" H 9650 2750 50  0001 L CNN "Manufacturer"
+F 6 "C0805C106K8RACTU" H 9650 2650 50  0001 L CNN "MPN"
+F 7 "Capacitors" H 5950 6600 50  0001 L CNN "Category"
+F 8 "Ceramic Capacitors" H 5950 6700 50  0001 L CNN "Family"
+F 9 "10uF" V 9250 2050 50  0000 L CNN "Capacitance"
+F 10 "±10%" V 9250 2300 50  0000 L CNN "Tolerance"
+F 11 "10V" V 9350 2050 50  0000 L CNN "Voltage"
+F 12 "X7R" V 9350 2300 50  0000 L CNN "Dielectric"
+F 13 "EIA0805" V 9450 2050 50  0000 L CNN "Package"
+	1    9250 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 1700 9250 1700
+Wire Wire Line
+	9250 1700 9250 1750
+Wire Wire Line
+	9250 1950 9250 2000
 $EndSCHEMATC
