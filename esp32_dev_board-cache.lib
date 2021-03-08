@@ -132,6 +132,31 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# gz_Chip-Resistors-Surface-Mount_RES-EIA0603
+#
+DEF gz_Chip-Resistors-Surface-Mount_RES-EIA0603 R 0 40 N N 1 F N
+F0 "R" -300 450 50 H V L CNN
+F1 "gz_Chip-Resistors-Surface-Mount_RES-EIA0603" 800 900 50 H I L CNN
+F2 "footprints_generic:RESC160X85X55L30N" -3300 4350 50 H I L CNN
+F3 "" -3300 4450 50 H I L CNN
+F4 "Digi-Key_PN" 800 800 50 H I L CNN "Digi-Key_PN"
+F5 "Manufacturer" 800 700 50 H I L CNN "Manufacturer"
+F6 "MPN" 800 600 50 H I L CNN "MPN"
+F7 "Resistors" -3300 4750 50 H I L CNN "Category"
+F8 "Chip Resistor - Surface Mount" -3300 4850 50 H I L CNN "Family"
+F9 "<resistance>" -300 350 50 H V L CNN "Resistance"
+F10 "± <tolerance>" 300 350 50 H V L CNN "Tolerance"
+F11 "<power>" -300 250 50 H V L CNN "Power"
+F12 "<voltage>" 100 250 50 H V L CNN "Voltage"
+F13 "EIA0603" -300 150 50 H V L CNN "Package"
+DRAW
+P 3 0 1 0 100 0 125 -50 150 0 N
+P 7 0 1 0 -150 0 -125 50 -75 -50 -25 50 25 -50 75 50 100 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # gz_Ferrite-Beads-and-Chips_FB-EIA0603
 #
 DEF gz_Ferrite-Beads-and-Chips_FB-EIA0603 FB 0 40 N N 1 F N
@@ -224,6 +249,19 @@ ENDDEF
 DEF gz_Power-Symbols_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
 F1 "gz_Power-Symbols_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# gz_Power-Symbols_PSU
+#
+DEF gz_Power-Symbols_PSU #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "gz_Power-Symbols_PSU" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
