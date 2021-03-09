@@ -430,6 +430,33 @@ X ~ 2 0 -150 75 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# gz_Test-Points_Test-Point-SMT
+#
+DEF gz_Test-Points_Test-Point-SMT TP 0 0 N N 1 F P
+F0 "TP" 0 150 50 H V C CNN
+F1 "gz_Test-Points_Test-Point-SMT" 300 350 50 H I L CNN
+F2 "footprints_generic:TestPoint-SMT_C100" 300 250 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 80 29 0 1 0 F
+X 1 1 0 0 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# gz_Test-Points_Test-Point-THT
+#
+DEF gz_Test-Points_Test-Point-THT TP 0 0 N N 1 F P
+F0 "TP" 0 150 50 H V C CNN
+F1 "gz_Test-Points_Test-Point-THT" 400 350 50 H I L CNN
+F2 "footprints_generic:TestPoint-THT_C150H100" 400 450 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 80 14 0 1 0 F
+C 0 80 29 0 1 0 N
+X 1 1 0 0 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # gz_USB-DVI-HDMI-Connectors_Molex-1050170001
 #
 DEF gz_USB-DVI-HDMI-Connectors_Molex-1050170001 J 0 157 Y Y 1 F N

@@ -207,7 +207,7 @@ F 3 "" H 5800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 1700 5800 1700
+	5000 1700 5400 1700
 Wire Wire Line
 	5800 1700 5800 1850
 Connection ~ 5000 1700
@@ -255,7 +255,7 @@ F 15 "EIA0805" V 9500 2100 50  0000 L CNN "Package"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8750 1700 9250 1700
+	8750 1700 8950 1700
 Wire Wire Line
 	9250 1700 9250 1800
 $Comp
@@ -551,4 +551,50 @@ F 15 "EIA0603" H 9400 1800 50  0000 L CNN "Package"
 	1    9600 1700
 	1    0    0    -1  
 $EndComp
+$Comp
+L gz_Test-Points:Test-Point-THT TP?
+U 1 1 6047F66A
+P 5400 1650
+F 0 "TP?" H 5457 1697 50  0000 L CNN
+F 1 "Test-Point-THT" H 5800 2000 50  0001 L CNN
+F 2 "footprints_generic:TestPoint-THT_C150H100" H 5800 2100 50  0001 L CNN
+F 3 "" H 5400 1650 50  0001 C CNN
+	1    5400 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1650 5400 1700
+Connection ~ 5400 1700
+Wire Wire Line
+	5400 1700 5800 1700
+$Comp
+L gz_Test-Points:Test-Point-THT TP?
+U 1 1 60483308
+P 8950 1650
+F 0 "TP?" H 9007 1697 50  0000 L CNN
+F 1 "Test-Point-THT" H 9350 2000 50  0001 L CNN
+F 2 "footprints_generic:TestPoint-THT_C150H100" H 9350 2100 50  0001 L CNN
+F 3 "" H 8950 1650 50  0001 C CNN
+	1    8950 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 1700
+Wire Wire Line
+	8950 1700 9250 1700
+$Comp
+L gz_Test-Points:Test-Point-SMT TP?
+U 1 1 60483C2B
+P 10100 1700
+F 0 "TP?" V 10100 1837 50  0000 L CNN
+F 1 "Test-Point-SMT" H 10400 2050 50  0001 L CNN
+F 2 "footprints_generic:TestPoint-SMT_C100" H 10400 1950 50  0001 L CNN
+F 3 "" H 10100 1700 50  0001 C CNN
+	1    10100 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 1650 8950 1700
+Wire Wire Line
+	10100 1700 10050 1700
+Connection ~ 10050 1700
 $EndSCHEMATC
