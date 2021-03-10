@@ -1107,4 +1107,27 @@ Wire Wire Line
 Connection ~ 8250 1200
 Wire Wire Line
 	8250 1200 8450 1200
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 605F571C
+P 7250 6150
+F 0 "R?" V 7050 6250 50  0000 L CNN
+F 1 "RES-EIA0402" H 8050 7050 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 3950 10500 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H 3950 10600 50  0001 L CNN
+F 4 "Digikey" H 7250 6150 50  0001 L CNN "Vendor"
+F 5 "P10KJCT-ND" H 7250 6150 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 8050 6850 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ103X" H 8050 6750 50  0001 L CNN "MPN"
+F 8 "Resistors" H 3950 10900 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 3950 11000 50  0001 L CNN "Family"
+F 10 "Yes" H 7250 6150 50  0001 C CNN "Fit"
+F 11 "10k" V 7150 6250 50  0000 L CNN "Resistance"
+F 12 "±5%" V 7150 6450 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 7250 6250 50  0000 L CNN "Power"
+F 14 "N/A" H 7250 6365 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 7350 6250 50  0000 L CNN "Package"
+	1    7250 6150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
