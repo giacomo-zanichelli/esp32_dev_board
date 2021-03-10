@@ -169,6 +169,37 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# gz_Crystals_RaltronElectronics-RH100-40.000-9-F-1010-EXT-TR
+#
+DEF gz_Crystals_RaltronElectronics-RH100-40.000-9-F-1010-EXT-TR XTAL 0 50 N N 1 F N
+F0 "XTAL" -250 350 50 H V L CNN
+F1 "gz_Crystals_RaltronElectronics-RH100-40.000-9-F-1010-EXT-TR" 500 1400 50 H I L CNN
+F2 "footprints:RaltronElectronics-RH100_XTALDFN4_250X320X80L90X100N" 500 1300 50 H I L CNN
+F3 "" 200 300 50 H I L CNN
+F4 "2151-RH100-40.000-9-F-1010-EXT-TRCT-ND" 900 1200 50 H I L CNN "Vendor_PN"
+F5 "RH100-40.000-9-F-1010-EXT-TR" 1300 1100 50 H I L CNN "MPN"
+F6 "Crystals, Oscillators, Resonators" 500 900 50 H I L CNN "Category"
+F7 "Crystals" 500 1000 50 H I L CNN "Family"
+F8 "Raltron Electronics" 500 1100 50 H I L CNN "Manufacturer"
+F9 "40MHz" -250 250 50 H V L CNN "Frequency"
+F10 "ESR 50R" -250 150 50 H V L CNN "ESR"
+F11 "±10ppm" 50 250 50 H V L CNN "Tolerance"
+F12 "CL 9pF" 150 150 50 H V L CNN "Load Capacitance"
+F13 "EIA1210" 500 800 50 H I L CNN "Package"
+F14 "Digikey" 500 1200 50 H I L CNN "Vendor"
+F15 "Yes" 50 350 50 H I L CNN "Fit"
+DRAW
+S 40 65 -40 -65 0 1 0 N
+P 2 0 1 0 -60 75 -60 -75 N
+P 2 0 1 0 -50 -100 50 -100 N
+P 4 0 1 0 60 75 60 30 60 0 60 -75 N
+X ~ 2 50 -150 50 U 50 50 0 0 W
+X ~ 4 -50 -150 50 U 50 50 0 0 W
+X ~ 1 -100 0 40 R 50 50 1 1 B
+X ~ 3 100 0 40 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # gz_Ferrite-Beads-and-Chips_FB-EIA0603
 #
 DEF gz_Ferrite-Beads-and-Chips_FB-EIA0603 FB 0 40 N N 1 F N
