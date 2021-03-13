@@ -1819,32 +1819,6 @@ F 15 "EIA0402" V 7500 5950 50  0000 L CNN "Package"
 	1    7250 5800
 	0    1    1    0   
 $EndComp
-$Comp
-L gz_Fixed-Inductors:IND-EIA0201 L?
-U 1 1 604BFB5E
-P 6750 5600
-F 0 "L?" H 6775 5972 50  0000 C CNN
-F 1 "IND-EIA0201" H 7200 7400 50  0001 L CNN
-F 2 "footprints_generic:INDC60X30X42L15L" H 7200 7300 50  0001 L CNN
-F 3 "${MURATA_BASE}LQP03HQ0N6W02%23" H 3450 10050 50  0001 L CNN
-F 4 "Digikey" H 7200 7200 50  0001 L CNN "Vendor"
-F 5 "490-13844-1-ND" H 7550 7200 50  0001 L CNN "Vendor_PN"
-F 6 "Murata Electronics" H 7200 7100 50  0001 L CNN "Manufacturer"
-F 7 "LQP03HQ0N6W02#" H 8000 7100 50  0001 L CNN "MPN"
-F 8 "Inductors, Coils, Chokes" H 7200 7000 50  0001 L CNN "Category"
-F 9 "Fixed Inductors" H 7200 6900 50  0001 L CNN "Family"
-F 10 "Yes" H 6600 6050 50  0001 L CNN "Fit"
-F 11 "0.6Nh" H 6775 5881 50  0000 C CNN "Inductance"
-F 12 "±0.05Nh" H 6775 5790 50  0000 C CNN "Tolerance"
-F 13 "Q 20 @ 500MHz" H 7200 6800 50  0001 L CNN "Quality Factor"
-F 14 "DCR 40mr" H 7200 6700 50  0001 L CNN "DCR"
-F 15 "SRF 20GHz" H 7200 6600 50  0001 L CNN "SRF"
-F 16 "1.1A" H 7200 6500 50  0001 L CNN "Current"
-F 17 "FILM" H 7200 6400 50  0001 L CNN "Type"
-F 18 "EIA0201" H 6775 5699 50  0000 C CNN "Package"
-	1    6750 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 5600 6250 5600
 Wire Wire Line
@@ -1882,4 +1856,194 @@ F 3 "" H 7250 5950 50  0001 C CNN
 	1    7250 5950
 	1    0    0    -1  
 $EndComp
+$Comp
+L gz_Fixed-Inductors:IND-EIA0402 L?
+U 1 1 604DAC9B
+P 6750 5600
+F 0 "L?" H 6650 5900 50  0000 L CNN
+F 1 "IND-EIA0402" H 7200 7400 50  0001 L CNN
+F 2 "footprints_generic:INDC100X50X55L25N" H 7200 7300 50  0001 L CNN
+F 3 "${TDK_BASE}MLG1005S0N6BT000" H 3450 10050 50  0001 L CNN
+F 4 "Digikey" H 7200 7200 50  0001 L CNN "Vendor"
+F 5 "445-16237-1-ND" H 7550 7200 50  0001 L CNN "Vendor_PN"
+F 6 "TDK Corporation" H 7200 7100 50  0001 L CNN "Manufacturer"
+F 7 "MLG1005S0N6BT000" H 8000 7100 50  0001 L CNN "MPN"
+F 8 "Inductors, Coils, Chokes" H 7200 7000 50  0001 L CNN "Category"
+F 9 "Fixed Inductors" H 7200 6900 50  0001 L CNN "Family"
+F 10 "Yes" H 6600 6050 50  0001 L CNN "Fit"
+F 11 "0.6nH" H 6650 5800 50  0000 L CNN "Inductance"
+F 12 "±0.1nH" H 6900 5800 50  0000 L CNN "Tolerance"
+F 13 "Q 10 @ 100MHz" H 7200 6800 50  0001 L CNN "Quality Factor"
+F 14 "DCR 100mR" H 7200 6700 50  0001 L CNN "DCR"
+F 15 "SRF 10GHz" H 7200 6600 50  0001 L CNN "SRF"
+F 16 "Imax 1A" H 7200 6500 50  0001 L CNN "Current"
+F 17 "ML" H 7200 6400 50  0001 L CNN "Type"
+F 18 "EIA0402" H 6650 5700 50  0000 L CNN "Package"
+	1    6750 5600
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 5950 0    50   ~ 0
+30 +j10
+Wire Notes Line
+	7850 5150 7850 6250
+Wire Notes Line
+	7850 6250 6050 6250
+Wire Notes Line
+	6050 6250 6050 5150
+Wire Notes Line
+	6050 5150 7850 5150
+Wire Notes Line style solid
+	6000 5850 6000 5650
+Wire Notes Line style solid
+	6000 5650 5900 5650
+Wire Notes Line style solid
+	5900 5650 5925 5625
+Wire Notes Line style solid
+	5900 5650 5925 5675
+Text Notes 7900 5950 0    50   ~ 0
+50R
+Wire Notes Line style solid
+	8000 5850 8000 5650
+Wire Notes Line style solid
+	8000 5650 7900 5650
+Wire Notes Line style solid
+	7900 5650 7925 5625
+Wire Notes Line style solid
+	7900 5650 7925 5675
+Connection ~ 7250 5600
+Text Notes 7450 5350 0    50   ~ 0
+2445MHz\nQ = 10
+Wire Wire Line
+	8650 5650 8650 5600
+Connection ~ 8650 5600
+Wire Wire Line
+	9250 5600 9500 5600
+Wire Wire Line
+	9500 5600 9500 5650
+Wire Wire Line
+	8650 5950 8650 6000
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 605A2506
+P 8650 6000
+F 0 "#PWR?" H 8650 5750 50  0001 C CNN
+F 1 "GND" H 8655 5827 50  0000 C CNN
+F 2 "" H 8650 6000 50  0001 C CNN
+F 3 "" H 8650 6000 50  0001 C CNN
+	1    8650 6000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10250 5150 10250 6250
+Wire Notes Line
+	10250 6250 8450 6250
+Wire Notes Line
+	8450 6250 8450 5150
+Wire Notes Line
+	8450 5150 10250 5150
+Text Notes 10300 5950 0    50   ~ 0
+50R
+Wire Notes Line style solid
+	10400 5850 10400 5650
+Wire Notes Line style solid
+	10400 5650 10300 5650
+Wire Notes Line style solid
+	10300 5650 10325 5625
+Wire Notes Line style solid
+	10300 5650 10325 5675
+Wire Wire Line
+	9500 5600 10400 5600
+Connection ~ 9500 5600
+Wire Wire Line
+	7250 5600 8650 5600
+Text Notes 8400 5950 2    50   ~ 0
+50R
+Wire Notes Line style solid
+	8300 5850 8300 5650
+Wire Notes Line style solid
+	8300 5650 8400 5650
+Wire Notes Line style solid
+	8400 5650 8375 5625
+Wire Notes Line style solid
+	8400 5650 8375 5675
+$Comp
+L gz_Generic-Impedance-Surface-Mount:Z-EIA0402 Z?
+U 1 1 605FEF00
+P 8650 5800
+F 0 "Z?" V 8559 5853 50  0000 L CNN
+F 1 "Z-EIA0402" H 9450 6700 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 5350 10150 50  0001 L CNN
+F 3 "" H 5350 10250 50  0001 L CNN
+F 4 "TBD" H 9450 6600 50  0001 L CNN "Vendor"
+F 5 "TBD" H 9800 6600 50  0001 L CNN "Vendor_PN"
+F 6 "TBD" H 9450 6500 50  0001 L CNN "Manufacturer"
+F 7 "TBD" H 10050 6500 50  0001 L CNN "MPN"
+F 8 "TBD" H 5350 10550 50  0001 L CNN "Category"
+F 9 "TBD" H 5350 10650 50  0001 L CNN "Family"
+F 10 "NF" V 8650 5853 50  0000 L CNN "Fit"
+F 11 "TBD" V 8695 5853 50  0001 L CNN "Nominal"
+F 12 "TBD" V 8695 5853 50  0001 L CNN "Tolerance"
+F 13 "EIA0402" V 8741 5853 50  0000 L CNN "Package"
+	1    8650 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 5950 9500 6000
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 6063A4C0
+P 9500 6000
+F 0 "#PWR?" H 9500 5750 50  0001 C CNN
+F 1 "GND" H 9505 5827 50  0000 C CNN
+F 2 "" H 9500 6000 50  0001 C CNN
+F 3 "" H 9500 6000 50  0001 C CNN
+	1    9500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Generic-Impedance-Surface-Mount:Z-EIA0402 Z?
+U 1 1 6063A4D0
+P 9500 5800
+F 0 "Z?" V 9409 5853 50  0000 L CNN
+F 1 "Z-EIA0402" H 10300 6700 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 6200 10150 50  0001 L CNN
+F 3 "" H 6200 10250 50  0001 L CNN
+F 4 "TBD" H 10300 6600 50  0001 L CNN "Vendor"
+F 5 "TBD" H 10650 6600 50  0001 L CNN "Vendor_PN"
+F 6 "TBD" H 10300 6500 50  0001 L CNN "Manufacturer"
+F 7 "TBD" H 10900 6500 50  0001 L CNN "MPN"
+F 8 "TBD" H 6200 10550 50  0001 L CNN "Category"
+F 9 "TBD" H 6200 10650 50  0001 L CNN "Family"
+F 10 "NF" V 9500 5853 50  0000 L CNN "Fit"
+F 11 "TBD" V 9545 5853 50  0001 L CNN "Nominal"
+F 12 "TBD" V 9545 5853 50  0001 L CNN "Tolerance"
+F 13 "EIA0402" V 9591 5853 50  0000 L CNN "Package"
+	1    9500 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Generic-Impedance-Surface-Mount:Z-EIA0402 Z?
+U 1 1 6067079F
+P 9100 5600
+F 0 "Z?" H 9150 5500 50  0000 L CNN
+F 1 "Z-EIA0402" H 9900 6500 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 5800 9950 50  0001 L CNN
+F 3 "" H 5800 10050 50  0001 L CNN
+F 4 "TBD" H 9900 6400 50  0001 L CNN "Vendor"
+F 5 "TBD" H 10250 6400 50  0001 L CNN "Vendor_PN"
+F 6 "TBD" H 9900 6300 50  0001 L CNN "Manufacturer"
+F 7 "TBD" H 10500 6300 50  0001 L CNN "MPN"
+F 8 "TBD" H 5800 10350 50  0001 L CNN "Category"
+F 9 "TBD" H 5800 10450 50  0001 L CNN "Family"
+F 10 "Yes" H 9200 5400 50  0001 L CNN "Fit"
+F 11 "0R" H 8950 5500 50  0000 L CNN "Nominal"
+F 12 "TBD" V 9145 5653 50  0001 L CNN "Tolerance"
+F 13 "EIA0402" H 8950 5700 50  0000 L CNN "Package"
+	1    9100 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 5600 8950 5600
+Text Notes 8500 5250 0    50   ~ 0
+Antenna Matching\n
 $EndSCHEMATC
