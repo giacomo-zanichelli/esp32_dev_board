@@ -283,4 +283,12 @@ F 15 "EIA0402" V 3950 5150 50  0000 L CNN "Package"
 	1    3850 5050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2150 1900 2550 1900
+Wire Wire Line
+	2150 2000 2550 2000
+Text Label 2550 2000 2    50   ~ 0
+TAP_TXD
+Text Label 2550 1900 2    50   ~ 0
+TAP_RXD
 $EndSCHEMATC
