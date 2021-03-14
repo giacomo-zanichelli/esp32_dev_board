@@ -1913,8 +1913,72 @@ Connection ~ 850  3150
 Wire Wire Line
 	850  3150 1050 3150
 Connection ~ 1050 2800
-Wire Wire Line
-	1050 2800 1550 2800
 Text Label 1550 2800 2    50   ~ 0
 BOOT_MODE
+$Comp
+L gz_LED-Indication-Discrete:LiteOn-LTST-C155KGJRKT LED?
+U 2 1 604FF3FC
+P 2050 2950
+AR Path="/6032FC47/604FF3FC" Ref="LED?"  Part="2" 
+AR Path="/60330427/604FF3FC" Ref="LED?"  Part="2" 
+F 0 "LED?" V 2009 3128 50  0000 L CNN
+F 1 "LiteOn-LTST-C155KGJRKT" H 2600 4200 50  0001 L CNN
+F 2 "footprints:LiteOn-LTST-C155_LEDCAV4P138_270X320X110L50X90N" H 2600 4100 50  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2001-038/LTST-C155KGJRKT.pdf" H 1150 3650 50  0001 L CNN
+F 4 "Digikey" H 2600 4000 50  0001 L CNN "Vendor"
+F 5 "160-1409-1-ND" H 3000 4000 50  0001 L CNN "Vendor_PN"
+F 6 "Lite-On Inc." V 2100 3128 50  0000 L CNN "Manufacturer"
+F 7 "LTST-C155KGJRKT" V 2191 3128 50  0000 L CNN "MPN"
+F 8 "Optoelectronics" H 2600 3900 50  0001 L CNN "Category"
+F 9 "LED Indication - Discrete" H 2600 3800 50  0001 L CNN "Family"
+F 10 "Yes" H 2050 3500 50  0001 L CNN "Fit"
+	2    2050 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 6051C6B0
+P 1800 2800
+AR Path="/6032FC47/6051C6B0" Ref="R?"  Part="1" 
+AR Path="/60330427/6051C6B0" Ref="R?"  Part="1" 
+F 0 "R?" H 1600 3200 50  0000 L CNN
+F 1 "RES-EIA0402" H 2600 3700 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H -1500 7150 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ510X" H -1500 7250 50  0001 L CNN
+F 4 "Digikey" H 1800 2800 50  0001 L CNN "Vendor"
+F 5 "P51JCT-ND" H 1800 2800 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 2600 3500 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ510X" H 2600 3400 50  0001 L CNN "MPN"
+F 8 "Resistors" H -1500 7550 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H -1500 7650 50  0001 L CNN "Family"
+F 10 "Yes" H 1800 2800 50  0001 L CNN "Fit"
+F 11 "51R" H 1600 3100 50  0000 L CNN "Resistance"
+F 12 "±5%" H 1850 3100 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 1600 3000 50  0000 L CNN "Power"
+F 14 "N/A" V 1936 2878 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 1600 2900 50  0000 L CNN "Package"
+	1    1800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 6052D922
+P 2050 3200
+AR Path="/60330427/6052D922" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/6052D922" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2050 2950 50  0001 C CNN
+F 1 "GND" H 2055 3027 50  0000 C CNN
+F 2 "" H 2050 3200 50  0001 C CNN
+F 3 "" H 2050 3200 50  0001 C CNN
+	1    2050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3150 2050 3200
+Wire Wire Line
+	2050 2850 2050 2800
+Wire Wire Line
+	2000 2800 2050 2800
+Wire Wire Line
+	1050 2800 1600 2800
 $EndSCHEMATC

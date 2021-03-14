@@ -1,4 +1,4 @@
-61355221142052
+71049669626052
 footprints
 Espressif-ESP32_QFN49P40_600X600X90L40X20T430N
 Quad Flat No-Lead (QFN with Tab), 0.40 mm pitch; square, 12 pin X 12 pin, 6.00 mm L X 6.00 mm W X 0.90 mm H body
@@ -62,6 +62,48 @@ Tact Switch, SOFL
 0
 4
 4
+footprints
+WE-61300111121_HDRV1W79P0_1X1_254X254H854
+Header, Vertical; 0.79 mm lead width,  single pin, 2.54 mm L X 2.54 mm W X 8.54 mm H body
+
+0
+1
+1
+footprints
+WE-61300211121_HDRV2W79P254_2X1_508X254H854
+Header, Vertical, 2.54 mm pitch; 0.79 mm lead width, 2 pins, 1 row, 2 pins per row, 5.08 mm L X 2.54 mm W X 8.54 mm H body
+
+0
+2
+2
+footprints
+WE-61300311121_HDRV3W79P254_3X1_762X254H854
+Header, Vertical, 2.54 mm pitch; 0.79 mm lead width, 3 pins, 1 row, 3 pins per row, 7.62 mm L X 2.54 mm W X 8.54 mm H body
+
+0
+3
+3
+footprints
+WE-61300411121_HDRV4W79P254_4X1_1016X254H854
+Header, Vertical, 2.54 mm pitch; 0.79 mm lead width, 4 pins, 1 row, 4 pins per row, 10.16 mm L X 2.54 mm W X 8.54 mm H body
+
+0
+4
+4
+footprints
+WE-61300511121_HDRV5W79P254_5X1_1270X254H854
+Header, Vertical, 2.54 mm pitch; 0.79 mm lead width, 5 pins, 1 row, 5 pins per row, 12.70 mm L X 2.54 mm W X 8.54 mm H body
+
+0
+5
+5
+footprints
+WE-61300611121_HDRV6W79P254_6X1_1524X254H854
+Header, Vertical, 2.54 mm pitch; 0.79 mm lead width, 6 pins, 1 row, 6 pins per row, 15.24 mm L X 2.54 mm W X 8.54 mm H body
+
+0
+6
+6
 footprints_generic
 BEADC100X50X55L25N
 Ferrite Bead, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body; EIA0402

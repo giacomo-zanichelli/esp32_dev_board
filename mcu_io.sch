@@ -291,4 +291,77 @@ Text Label 2550 2000 2    50   ~ 0
 TAP_TXD
 Text Label 2550 1900 2    50   ~ 0
 TAP_RXD
+$Comp
+L gz_Rectangular-Connectors-Headers-Male-Pins:WE-61300511121 J?
+U 1 1 604FF7D2
+P 1350 3050
+F 0 "J?" H 1432 3557 50  0000 C CNN
+F 1 "WE-61300511121" H 1850 3900 50  0001 L CNN
+F 2 "footprints:WE-61300511121_HDRV5W79P254_5X1_1270X254H854" H 1850 4000 50  0001 L CNN
+F 3 "${DATASHEETS}/WE-6130xx11121.pdf" H 2150 2900 50  0001 L CNN
+F 4 "Digikey" H 1850 3800 50  0001 L CNN "Vendor"
+F 5 "732-5318-ND" H 2150 3800 50  0001 L CNN "Vendor_PN"
+F 6 "Würth Elektronik" H 1432 3466 50  0000 C CNN "Manufacturer"
+F 7 "61300511121" H 1432 3375 50  0000 C CNN "MPN"
+F 8 "Connectors, Interconnects" H 1850 3700 50  0001 L CNN "Category"
+F 9 "Rectangular Connectors - Headers, Male Pins" H 1850 3600 50  0001 L CNN "Family"
+F 10 "Yes" H 1350 3400 50  0001 L CNN "Fit"
+	1    1350 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2850 1950 2850
+Wire Wire Line
+	1550 2950 2100 2950
+Wire Wire Line
+	1550 3050 2100 3050
+Wire Wire Line
+	1550 3150 2100 3150
+Wire Wire Line
+	1550 3250 2100 3250
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 605045A7
+P 2150 2600
+AR Path="/60330427/605045A7" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605045A7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 2350 50  0001 C CNN
+F 1 "GND" H 2150 2450 50  0000 C CNN
+F 2 "" H 2150 2600 50  0001 C CNN
+F 3 "" H 2150 2600 50  0001 C CNN
+	1    2150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2600 2150 2500
+Wire Wire Line
+	2150 2500 1950 2500
+Wire Wire Line
+	1950 2500 1950 2850
+Text Label 2100 2950 2    50   ~ 0
+TAP_RXD
+Text Label 2100 3050 2    50   ~ 0
+TAP_TXD
+Text Label 2100 3150 2    50   ~ 0
+TAP_CTS
+Text Label 2100 3250 2    50   ~ 0
+TAP_RTS
+Wire Notes Line style solid
+	1000 2950 1150 2950
+Wire Notes Line style solid
+	1150 2950 1125 2925
+Wire Notes Line style solid
+	1150 2950 1125 2975
+Wire Notes Line style solid
+	1150 3050 1000 3050
+Wire Notes Line style solid
+	1000 3050 1025 3075
+Wire Notes Line style solid
+	1000 3050 1025 3025
+Wire Notes Line style solid
+	1000 3150 1150 3150
+Wire Notes Line style solid
+	1150 3150 1125 3125
+Wire Notes Line style solid
+	1150 3150 1125 3175
 $EndSCHEMATC

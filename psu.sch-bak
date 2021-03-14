@@ -616,24 +616,6 @@ F 10 "Yes" H 5400 4050 50  0001 L CNN "Fit"
 	0    1    1    0   
 $EndComp
 $Comp
-L gz_LED-Indication-Discrete:LiteOn-LTST-C155KGJRKT LED?
-U 2 1 604DDEAE
-P 2950 4800
-F 0 "LED?" H 3000 5205 50  0000 C CNN
-F 1 "LiteOn-LTST-C155KGJRKT" H 3500 6050 50  0001 L CNN
-F 2 "footprints:LiteOn-LTST-C155_LEDCAV4P138_270X320X110L50X90N" H 3500 5950 50  0001 L CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2001-038/LTST-C155KGJRKT.pdf" H 2050 5500 50  0001 L CNN
-F 4 "Digikey" H 3500 5850 50  0001 L CNN "Vendor"
-F 5 "160-1409-1-ND" H 3900 5850 50  0001 L CNN "Vendor_PN"
-F 6 "Lite-On Inc." H 3000 5114 50  0000 C CNN "Manufacturer"
-F 7 "LTST-C155KGJRKT" H 3000 5023 50  0000 C CNN "MPN"
-F 8 "Optoelectronics" H 3500 5750 50  0001 L CNN "Category"
-F 9 "LED Indication - Discrete" H 3500 5650 50  0001 L CNN "Family"
-F 10 "Yes" H 2950 5350 50  0001 L CNN "Fit"
-	2    2950 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
 U 1 1 604E41D4
 P 5400 3150
