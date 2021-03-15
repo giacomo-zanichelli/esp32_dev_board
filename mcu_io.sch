@@ -382,12 +382,104 @@ Text Notes 750  2900 0    50   ~ 0
 GND
 Text Notes 700  3300 1    50   ~ 0
 fTDI LC231X
-Wire Notes Line
+Wire Notes Line style solid
 	600  2800 950  2800
-Wire Notes Line
+Wire Notes Line style solid
 	950  2800 950  3350
-Wire Notes Line
+Wire Notes Line style solid
 	950  3350 600  3350
-Wire Notes Line
+Wire Notes Line style solid
 	600  3350 600  2800
+$Comp
+L gz_Transistors-Bipolar-BJT-Arrays-Pre-Biased:ON-Semi_MUN5211DW1T1G Q?
+U 1 1 6050B898
+P 3550 3050
+F 0 "Q?" H 3350 3200 50  0000 L CNN
+F 1 "ON-Semi_MUN5211DW1T1G" H 3900 4500 50  0001 L CNN
+F 2 "footprints:ON-Semi-MUN5211DW1T1G_SOT23-6P65_210X110L36X20L" H 3900 4600 50  0001 L CNN
+F 3 "${DATASHEETS}/ON-Semi_MUN5211DW1T1G.pdf" H 3900 3500 50  0001 L CNN
+F 4 "Digikey" H 3900 4400 50  0001 L CNN "Vendor"
+F 5 "MUN5211DW1T1GOSCT-ND" H 4300 4400 50  0001 L CNN "Vendor_PN"
+F 6 "ON Semiconductor" H 3700 3000 50  0001 L CNN "Manufacturer"
+F 7 "MUN5211DW1T1G" H 3750 2900 50  0001 L CNN "MPN"
+F 8 "Discrete Semiconductor Products" H 3900 4300 50  0001 L CNN "Category"
+F 9 "Transistors - Bipolar (BJT) - Arrays, Pre-Biased" H 5300 4300 50  0001 L CNN "Family"
+F 10 "Yes" H 3850 3050 50  0001 L CNN "Fit"
+F 11 "SOT-363" H 3900 4200 50  0001 L CNN "Package"
+	1    3550 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L gz_Transistors-Bipolar-BJT-Arrays-Pre-Biased:ON-Semi_MUN5211DW1T1G Q?
+U 2 1 6050C9A5
+P 4350 3050
+F 0 "Q?" H 4150 3200 50  0000 L CNN
+F 1 "ON-Semi_MUN5211DW1T1G" H 4700 4500 50  0001 L CNN
+F 2 "footprints:ON-Semi-MUN5211DW1T1G_SOT23-6P65_210X110L36X20L" H 4700 4600 50  0001 L CNN
+F 3 "${DATASHEETS}/ON-Semi_MUN5211DW1T1G.pdf" H 4700 3500 50  0001 L CNN
+F 4 "Digikey" H 4700 4400 50  0001 L CNN "Vendor"
+F 5 "MUN5211DW1T1GOSCT-ND" H 5100 4400 50  0001 L CNN "Vendor_PN"
+F 6 "ON Semiconductor" H 3650 2650 50  0000 L CNN "Manufacturer"
+F 7 "MUN5211DW1T1G" H 3650 2550 50  0000 L CNN "MPN"
+F 8 "Discrete Semiconductor Products" H 4700 4300 50  0001 L CNN "Category"
+F 9 "Transistors - Bipolar (BJT) - Arrays, Pre-Biased" H 6100 4300 50  0001 L CNN "Family"
+F 10 "Yes" H 4650 3050 50  0001 L CNN "Fit"
+F 11 "SOT-363" H 4700 4200 50  0001 L CNN "Package"
+	2    4350 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3050 3850 3050
+Wire Wire Line
+	3850 3050 3850 3300
+Wire Wire Line
+	3850 3300 4400 3300
+Wire Wire Line
+	4400 3300 4400 3250
+Wire Wire Line
+	4100 3050 4050 3050
+Wire Wire Line
+	4050 3050 4050 3350
+Wire Wire Line
+	4050 3350 3500 3350
+Wire Wire Line
+	3500 3350 3500 3250
+Connection ~ 3850 3050
+Wire Wire Line
+	4050 3050 4050 2600
+Connection ~ 4050 3050
+Text Label 3500 2600 0    50   ~ 0
+TAP_DSR
+Wire Wire Line
+	3850 2600 3850 3050
+Text Label 4400 2600 2    50   ~ 0
+TAP_CTS
+Wire Wire Line
+	3500 2900 3500 2850
+Text GLabel 3400 2850 0    50   Input ~ 0
+ESP32_RSTn
+Text GLabel 4500 2850 2    50   Input ~ 0
+BOOT_MODE
+Wire Wire Line
+	3400 2850 3500 2850
+Wire Wire Line
+	4400 2850 4400 2900
+Wire Wire Line
+	4400 2850 4500 2850
+Wire Wire Line
+	4050 2600 4400 2600
+Wire Wire Line
+	3850 2600 3500 2600
+Wire Notes Line
+	6700 3100 6700 3650
+Wire Notes Line
+	6700 3650 4600 3650
+Wire Notes Line
+	4600 3650 4600 3100
+Text Notes 4650 3250 0    75   ~ 15
+Design
+Text Notes 4650 3600 0    50   ~ 0
+Auto-flash circuit. Some serial terminal programs\n(not esptool.py) will assert both RTS and DTR \nwhen opening the serial port, pulling them\nlow together and holding the ESP32 in reset.
+Wire Notes Line
+	4600 3100 6700 3100
 $EndSCHEMATC

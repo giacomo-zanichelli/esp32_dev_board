@@ -1340,9 +1340,7 @@ F 10 "Digikey" H 4700 5850 50  0001 L CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 5250 1800 5250
-Text Label 1800 5250 0    50   ~ 0
-ESP32_RSTn
+	2300 5250 2200 5250
 Text Label 4100 4550 2    50   ~ 0
 XTAL_RTC_N
 Text Label 4100 4450 2    50   ~ 0
@@ -1625,31 +1623,6 @@ Wire Wire Line
 Text Notes 6150 4900 0    50   ~ 0
 Antenna Matching\n
 $Comp
-L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
-U 1 1 60760D91
-P 850 1100
-AR Path="/60330427/60760D91" Ref="R?"  Part="1" 
-AR Path="/606CDE66/60760D91" Ref="R?"  Part="1" 
-F 0 "R?" V 650 1200 50  0000 L CNN
-F 1 "RES-EIA0402" H 1650 2000 50  0001 L CNN
-F 2 "footprints_generic:RESC100X50X40L25NN" H -2450 5450 50  0001 L CNN
-F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H -2450 5550 50  0001 L CNN
-F 4 "Digikey" H 850 1100 50  0001 L CNN "Vendor"
-F 5 "P10KJCT-ND" H 850 1100 50  0001 L CNN "Vendor_PN"
-F 6 "Panasonic Electronic Components" H 1650 1800 50  0001 L CNN "Manufacturer"
-F 7 "ERJ2GEJ103X" H 1650 1700 50  0001 L CNN "MPN"
-F 8 "Resistors" H -2450 5850 50  0001 L CNN "Category"
-F 9 "Chip Resistor - Surface Mount" H -2450 5950 50  0001 L CNN "Family"
-F 10 "Yes" H 850 1100 50  0001 C CNN "Fit"
-F 11 "10k" V 750 1200 50  0000 L CNN "Resistance"
-F 12 "±5%" V 750 1400 50  0000 L CNN "Tolerance"
-F 13 "1/10W" V 850 1200 50  0000 L CNN "Power"
-F 14 "N/A" H 850 1315 50  0001 L CNN "Voltage"
-F 15 "EIA0402" V 950 1200 50  0000 L CNN "Package"
-	1    850  1100
-	0    1    1    0   
-$EndComp
-$Comp
 L gz_Ceramic-Capacitors:CAP-EIA0402 C?
 U 1 1 60760DA3
 P 850 1500
@@ -1687,32 +1660,10 @@ F 3 "" H 850 1650 50  0001 C CNN
 	1    850  1650
 	1    0    0    -1  
 $EndComp
-$Comp
-L gz_Power-Symbols:3V3 #PWR?
-U 1 1 60760DAF
-P 850 850
-AR Path="/60330427/60760DAF" Ref="#PWR?"  Part="1" 
-AR Path="/606CDE66/60760DAF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1000 800 50  0001 C CNN
-F 1 "3V3" H 855 973 50  0000 C CNN
-F 2 "" H 850 850 50  0001 C CNN
-F 3 "" H 850 850 50  0001 C CNN
-	1    850  850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	850  850  850  900 
-Wire Wire Line
-	850  1300 850  1350
 Wire Wire Line
 	850  1600 850  1650
-Connection ~ 850  1350
 Wire Wire Line
 	850  1350 850  1400
-Text Label 1350 1350 2    50   ~ 0
-ESP32_RSTn
-Wire Wire Line
-	850  1350 1350 1350
 $Comp
 L gz_Tactile-Switches:WE-430181038816 SW?
 U 1 1 60760DC3
@@ -1779,7 +1730,7 @@ Wire Wire Line
 	1650 1450 1650 1350
 Wire Wire Line
 	2050 1350 2050 1450
-Text Label 2550 1350 2    50   ~ 0
+Text Label 1400 1350 2    50   ~ 0
 ESP32_RSTn
 Wire Wire Line
 	1650 1350 1850 1350
@@ -1810,13 +1761,8 @@ Wire Wire Line
 Connection ~ 1850 1700
 Wire Wire Line
 	1850 1700 2050 1700
-Connection ~ 2050 1350
 Wire Wire Line
-	2050 1350 2550 1350
-Wire Wire Line
-	2300 4950 1800 4950
-Text Label 1800 4950 0    50   ~ 0
-BOOT_MODE
+	2300 4950 2200 4950
 $Comp
 L gz_Tactile-Switches:WE-430181038816 SW?
 U 1 1 60884415
@@ -1981,4 +1927,11 @@ Wire Wire Line
 	2000 2800 2050 2800
 Wire Wire Line
 	1050 2800 1600 2800
+Text GLabel 2200 5250 0    50   Input ~ 0
+ESP32_RSTn
+Text GLabel 2200 4950 0    50   Input ~ 0
+BOOT_MODE
+Wire Wire Line
+	850  1350 1650 1350
+Connection ~ 1650 1350
 $EndSCHEMATC
