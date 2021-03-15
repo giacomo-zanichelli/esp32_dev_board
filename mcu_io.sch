@@ -345,7 +345,7 @@ TAP_TXD
 Text Label 2100 3150 2    50   ~ 0
 TAP_CTS
 Text Label 2100 3250 2    50   ~ 0
-TAP_RTS
+TAP_DSR
 Wire Notes Line style solid
 	1000 2950 1150 2950
 Wire Notes Line style solid
@@ -364,4 +364,30 @@ Wire Notes Line style solid
 	1150 3150 1125 3125
 Wire Notes Line style solid
 	1150 3150 1125 3175
+Wire Notes Line style solid
+	1000 3250 1150 3250
+Wire Notes Line style solid
+	1150 3250 1125 3225
+Wire Notes Line style solid
+	1150 3250 1125 3275
+Text Notes 750  3000 0    50   ~ 0
+TXD
+Text Notes 750  3100 0    50   ~ 0
+RXD
+Text Notes 750  3200 0    50   ~ 0
+RTS
+Text Notes 750  3300 0    50   ~ 0
+DTR
+Text Notes 750  2900 0    50   ~ 0
+GND
+Text Notes 700  3300 1    50   ~ 0
+fTDI LC231X
+Wire Notes Line
+	600  2800 950  2800
+Wire Notes Line
+	950  2800 950  3350
+Wire Notes Line
+	950  3350 600  3350
+Wire Notes Line
+	600  3350 600  2800
 $EndSCHEMATC
