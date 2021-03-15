@@ -322,22 +322,16 @@ Wire Wire Line
 $Comp
 L gz_Power-Symbols:GND #PWR?
 U 1 1 605045A7
-P 2150 2600
+P 2150 2650
 AR Path="/60330427/605045A7" Ref="#PWR?"  Part="1" 
 AR Path="/606CDE66/605045A7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2150 2350 50  0001 C CNN
-F 1 "GND" H 2150 2450 50  0000 C CNN
-F 2 "" H 2150 2600 50  0001 C CNN
-F 3 "" H 2150 2600 50  0001 C CNN
-	1    2150 2600
+F 0 "#PWR?" H 2150 2400 50  0001 C CNN
+F 1 "GND" H 2150 2500 50  0000 C CNN
+F 2 "" H 2150 2650 50  0001 C CNN
+F 3 "" H 2150 2650 50  0001 C CNN
+	1    2150 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 2600 2150 2500
-Wire Wire Line
-	2150 2500 1950 2500
-Wire Wire Line
-	1950 2500 1950 2850
 Text Label 2100 2950 2    50   ~ 0
 TAP_RXD
 Text Label 2100 3050 2    50   ~ 0
@@ -446,30 +440,24 @@ Wire Wire Line
 	3500 3350 3500 3250
 Connection ~ 3850 3050
 Wire Wire Line
-	4050 3050 4050 2600
+	4050 3050 4050 2700
 Connection ~ 4050 3050
-Text Label 3500 2600 0    50   ~ 0
-TAP_DSR
-Wire Wire Line
-	3850 2600 3850 3050
-Text Label 4400 2600 2    50   ~ 0
+Text Label 4400 2550 2    50   ~ 0
 TAP_CTS
 Wire Wire Line
 	3500 2900 3500 2850
-Text GLabel 3400 2850 0    50   Input ~ 0
+Text GLabel 3250 2850 0    50   Input ~ 0
 ESP32_RSTn
-Text GLabel 4500 2850 2    50   Input ~ 0
+Text GLabel 4600 2850 2    50   Input ~ 0
 BOOT_MODE
 Wire Wire Line
-	3400 2850 3500 2850
+	3250 2850 3350 2850
 Wire Wire Line
 	4400 2850 4400 2900
 Wire Wire Line
-	4400 2850 4500 2850
+	4400 2850 4550 2850
 Wire Wire Line
-	4050 2600 4400 2600
-Wire Wire Line
-	3850 2600 3500 2600
+	4050 2550 4400 2550
 Wire Notes Line
 	6700 3100 6700 3650
 Wire Notes Line
@@ -482,4 +470,274 @@ Text Notes 4650 3600 0    50   ~ 0
 Auto-flash circuit. Some serial terminal programs\n(not esptool.py) will assert both RTS and DTR \nwhen opening the serial port, pulling them\nlow together and holding the ESP32 in reset.
 Wire Notes Line
 	4600 3100 6700 3100
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 6051A2E9
+P 3600 2700
+AR Path="/60330427/6051A2E9" Ref="R?"  Part="1" 
+AR Path="/606CDE66/6051A2E9" Ref="R?"  Part="1" 
+F 0 "R?" H 3000 2900 50  0000 L CNN
+F 1 "RES-EIA0402" H 4400 3600 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 300 7050 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GE0R00X" H 300 7150 50  0001 L CNN
+F 4 "Digikey" H 3600 2700 50  0001 L CNN "Vendor"
+F 5 "P0.0JCT-ND" H 3600 2700 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 4400 3400 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GE0R00X" H 4400 3300 50  0001 L CNN "MPN"
+F 8 "Resistors" H 300 7450 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 300 7550 50  0001 L CNN "Family"
+F 10 "NF" H 3200 2900 50  0000 L CNN "Fit"
+F 11 "0R" H 3000 2800 50  0000 L CNN "Resistance"
+F 12 "N/A" V 3500 3000 50  0001 L CNN "Tolerance"
+F 13 "1/10W" H 3150 2800 50  0000 L CNN "Power"
+F 14 "N/A" H 3600 2915 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 3000 2700 50  0000 L CNN "Package"
+	1    3600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2700 3350 2850
+Connection ~ 3350 2850
+Wire Wire Line
+	3350 2850 3500 2850
+Wire Wire Line
+	3850 2550 3500 2550
+Text Label 3500 2550 0    50   ~ 0
+TAP_DSR
+Wire Wire Line
+	3350 2700 3400 2700
+Wire Wire Line
+	3850 2550 3850 2700
+Wire Wire Line
+	3800 2700 3850 2700
+Connection ~ 3850 2700
+Wire Wire Line
+	3850 2700 3850 3050
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 60568342
+P 4300 2700
+AR Path="/60330427/60568342" Ref="R?"  Part="1" 
+AR Path="/606CDE66/60568342" Ref="R?"  Part="1" 
+F 0 "R?" H 4600 2900 50  0000 L CNN
+F 1 "RES-EIA0402" H 5100 3600 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 1000 7050 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GE0R00X" H 1000 7150 50  0001 L CNN
+F 4 "Digikey" H 4300 2700 50  0001 L CNN "Vendor"
+F 5 "P0.0JCT-ND" H 4300 2700 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 5100 3400 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GE0R00X" H 5100 3300 50  0001 L CNN "MPN"
+F 8 "Resistors" H 1000 7450 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 1000 7550 50  0001 L CNN "Family"
+F 10 "NF" H 4800 2900 50  0000 L CNN "Fit"
+F 11 "0R" H 4600 2800 50  0000 L CNN "Resistance"
+F 12 "N/A" V 4200 3000 50  0001 L CNN "Tolerance"
+F 13 "1/10W" H 4750 2800 50  0000 L CNN "Power"
+F 14 "N/A" H 4300 2915 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 4600 2700 50  0000 L CNN "Package"
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2700 4050 2700
+Connection ~ 4050 2700
+Wire Wire Line
+	4050 2700 4050 2550
+Wire Wire Line
+	4500 2700 4550 2700
+Wire Wire Line
+	4550 2700 4550 2850
+Connection ~ 4550 2850
+Wire Wire Line
+	4550 2850 4600 2850
+Wire Wire Line
+	1950 2600 1950 2850
+Wire Wire Line
+	2150 2650 2150 2600
+Wire Wire Line
+	2150 2600 1950 2600
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 605B338C
+P 3100 1600
+AR Path="/60330427/605B338C" Ref="R?"  Part="1" 
+AR Path="/606CDE66/605B338C" Ref="R?"  Part="1" 
+F 0 "R?" V 2900 1700 50  0000 L CNN
+F 1 "RES-EIA0402" H 3900 2500 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H -200 5950 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H -200 6050 50  0001 L CNN
+F 4 "Digikey" H 3100 1600 50  0001 L CNN "Vendor"
+F 5 "P10KJCT-ND" H 3100 1600 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 3900 2300 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ103X" H 3900 2200 50  0001 L CNN "MPN"
+F 8 "Resistors" H -200 6350 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H -200 6450 50  0001 L CNN "Family"
+F 10 "Yes" H 3100 1600 50  0001 C CNN "Fit"
+F 11 "10k" V 3000 1700 50  0000 L CNN "Resistance"
+F 12 "±5%" V 3000 1900 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 3100 1700 50  0000 L CNN "Power"
+F 14 "N/A" H 3100 1815 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 3200 1700 50  0000 L CNN "Package"
+	1    3100 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 605B4686
+P 3750 1600
+AR Path="/60330427/605B4686" Ref="R?"  Part="1" 
+AR Path="/606CDE66/605B4686" Ref="R?"  Part="1" 
+F 0 "R?" V 3550 1700 50  0000 L CNN
+F 1 "RES-EIA0402" H 4550 2500 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 450 5950 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H 450 6050 50  0001 L CNN
+F 4 "Digikey" H 3750 1600 50  0001 L CNN "Vendor"
+F 5 "P10KJCT-ND" H 3750 1600 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 4550 2300 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ103X" H 4550 2200 50  0001 L CNN "MPN"
+F 8 "Resistors" H 450 6350 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 450 6450 50  0001 L CNN "Family"
+F 10 "Yes" H 3750 1600 50  0001 C CNN "Fit"
+F 11 "10k" V 3650 1700 50  0000 L CNN "Resistance"
+F 12 "±5%" V 3650 1900 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 3750 1700 50  0000 L CNN "Power"
+F 14 "N/A" H 3750 1815 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 3850 1700 50  0000 L CNN "Package"
+	1    3750 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 605B4DBA
+P 4350 1600
+AR Path="/60330427/605B4DBA" Ref="R?"  Part="1" 
+AR Path="/606CDE66/605B4DBA" Ref="R?"  Part="1" 
+F 0 "R?" V 4150 1700 50  0000 L CNN
+F 1 "RES-EIA0402" H 5150 2500 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 1050 5950 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H 1050 6050 50  0001 L CNN
+F 4 "Digikey" H 4350 1600 50  0001 L CNN "Vendor"
+F 5 "P10KJCT-ND" H 4350 1600 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 5150 2300 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ103X" H 5150 2200 50  0001 L CNN "MPN"
+F 8 "Resistors" H 1050 6350 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 1050 6450 50  0001 L CNN "Family"
+F 10 "Yes" H 4350 1600 50  0001 C CNN "Fit"
+F 11 "10k" V 4250 1700 50  0000 L CNN "Resistance"
+F 12 "±5%" V 4250 1900 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 4350 1700 50  0000 L CNN "Power"
+F 14 "N/A" H 4350 1815 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 4450 1700 50  0000 L CNN "Package"
+	1    4350 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 605B54D6
+P 5000 1600
+AR Path="/60330427/605B54D6" Ref="R?"  Part="1" 
+AR Path="/606CDE66/605B54D6" Ref="R?"  Part="1" 
+F 0 "R?" V 4800 1700 50  0000 L CNN
+F 1 "RES-EIA0402" H 5800 2500 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 1700 5950 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H 1700 6050 50  0001 L CNN
+F 4 "Digikey" H 5000 1600 50  0001 L CNN "Vendor"
+F 5 "P10KJCT-ND" H 5000 1600 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 5800 2300 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ103X" H 5800 2200 50  0001 L CNN "MPN"
+F 8 "Resistors" H 1700 6350 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 1700 6450 50  0001 L CNN "Family"
+F 10 "Yes" H 5000 1600 50  0001 C CNN "Fit"
+F 11 "10k" V 4900 1700 50  0000 L CNN "Resistance"
+F 12 "±5%" V 4900 1900 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 5000 1700 50  0000 L CNN "Power"
+F 14 "N/A" H 5000 1815 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 5100 1700 50  0000 L CNN "Package"
+	1    5000 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 1800 5000 1900
+Wire Wire Line
+	5000 1900 5500 1900
+Wire Wire Line
+	4350 1800 4350 1900
+Wire Wire Line
+	4350 1900 4850 1900
+Wire Wire Line
+	3750 1800 3750 1900
+Wire Wire Line
+	3750 1900 4200 1900
+Wire Wire Line
+	3100 1800 3100 1900
+Wire Wire Line
+	3100 1900 3600 1900
+Wire Wire Line
+	3100 1400 3100 1350
+Wire Wire Line
+	3750 1400 3750 1350
+Wire Wire Line
+	4350 1400 4350 1350
+Wire Wire Line
+	5000 1400 5000 1350
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 605C3B47
+P 3100 1350
+AR Path="/60330427/605C3B47" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605C3B47" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3250 1300 50  0001 C CNN
+F 1 "3V3" H 3105 1473 50  0000 C CNN
+F 2 "" H 3100 1350 50  0001 C CNN
+F 3 "" H 3100 1350 50  0001 C CNN
+	1    3100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 605C43D7
+P 3750 1350
+AR Path="/60330427/605C43D7" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605C43D7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 1300 50  0001 C CNN
+F 1 "3V3" H 3755 1473 50  0000 C CNN
+F 2 "" H 3750 1350 50  0001 C CNN
+F 3 "" H 3750 1350 50  0001 C CNN
+	1    3750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 605C4AD2
+P 4350 1350
+AR Path="/60330427/605C4AD2" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605C4AD2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4500 1300 50  0001 C CNN
+F 1 "3V3" H 4355 1473 50  0000 C CNN
+F 2 "" H 4350 1350 50  0001 C CNN
+F 3 "" H 4350 1350 50  0001 C CNN
+	1    4350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 605C5246
+P 5000 1350
+AR Path="/60330427/605C5246" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605C5246" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 1300 50  0001 C CNN
+F 1 "3V3" H 5005 1473 50  0000 C CNN
+F 2 "" H 5000 1350 50  0001 C CNN
+F 3 "" H 5000 1350 50  0001 C CNN
+	1    5000 1350
+	1    0    0    -1  
+$EndComp
+Text Label 3600 1900 2    50   ~ 0
+TAP_RXD
+Text Label 4200 1900 2    50   ~ 0
+TAP_TXD
+Text Label 4850 1900 2    50   ~ 0
+TAP_CTS
+Text Label 5500 1900 2    50   ~ 0
+TAP_DSR
 $EndSCHEMATC
