@@ -1628,4 +1628,203 @@ Text GLabel 2200 5250 0    50   Input ~ 0
 ESP32_RSTn
 Text GLabel 2200 4950 0    50   Input ~ 0
 BOOT_MODE
+$Comp
+L gz_Rectangular-Connectors-Headers-Male-Pins:Samtec-FTSH-105-01-F-DV-K-TR J?
+U 1 1 6079BF3E
+P 1250 1450
+F 0 "J?" H 1150 2150 50  0000 L CNN
+F 1 "Samtec-FTSH-105-01-F-DV-K-TR" H 1750 2300 50  0001 L CNN
+F 2 "footprints:Samtec_FTSH-105-01-F-DV-K-TR" H 1750 2400 50  0001 L CNN
+F 3 "${DATASHEETS}/Samtec_FTSH-SMT.pdf" H 2050 150 50  0001 L CNN
+F 4 "Digikey" H 1750 2200 50  0001 L CNN "Vendor"
+F 5 "SAM13160CT-ND" H 2050 2200 50  0001 L CNN "Vendor_PN"
+F 6 "Samtec Inc." H 1150 2050 50  0000 L CNN "Manufacturer"
+F 7 "FTSH-105-01-F-DV-K-TR" H 1150 1950 50  0000 L CNN "MPN"
+F 8 "Connectors, Interconnects" H 1750 2100 50  0001 L CNN "Category"
+F 9 "Rectangular Connectors - Headers, Male Pins" H 1750 2000 50  0001 L CNN "Family"
+F 10 "Yes" H 1300 1900 50  0001 L CNN "Fit"
+	1    1250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1350 950  1350
+Wire Wire Line
+	950  1350 950  1450
+Wire Wire Line
+	1050 1450 950  1450
+Connection ~ 950  1450
+Wire Wire Line
+	950  1450 950  1700
+Wire Wire Line
+	1050 1250 950  1250
+Wire Wire Line
+	950  1250 950  1200
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 607B6F1E
+P 950 1200
+F 0 "#PWR?" H 1100 1150 50  0001 C CNN
+F 1 "3V3" H 955 1323 50  0000 C CNN
+F 2 "" H 950 1200 50  0001 C CNN
+F 3 "" H 950 1200 50  0001 C CNN
+	1    950  1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4350 1800 4350
+Wire Wire Line
+	2300 4450 1800 4450
+Wire Wire Line
+	2300 4550 1800 4550
+Wire Wire Line
+	2300 4650 1800 4650
+Text Label 1800 4350 0    50   ~ 0
+JTAG_TMS
+Text Label 1800 4650 0    50   ~ 0
+JTAG_TDO
+Text Label 1800 4450 0    50   ~ 0
+JTAG_TDI
+Text Label 1800 4550 0    50   ~ 0
+JTAG_TCK
+Wire Wire Line
+	2100 1250 2800 1250
+Wire Wire Line
+	2100 1550 2800 1550
+Wire Wire Line
+	2100 1350 2800 1350
+Wire Wire Line
+	2100 1450 2800 1450
+Text Label 2800 1250 2    50   ~ 0
+JTAG_TMS
+Text Label 2800 1450 2    50   ~ 0
+JTAG_TDO
+Text Label 2800 1550 2    50   ~ 0
+JTAG_TDI
+Text Label 2800 1350 2    50   ~ 0
+JTAG_TCK
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 6082CA10
+P 1900 1350
+AR Path="/60330427/6082CA10" Ref="R?"  Part="1" 
+AR Path="/606CDE66/6082CA10" Ref="R?"  Part="1" 
+F 0 "R?" H 2150 1300 50  0000 L CNN
+F 1 "RES-EIA0402" H 2700 2250 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H -1400 5700 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ330X" H -1400 5800 50  0001 L CNN
+F 4 "Digikey" H 1900 1350 50  0001 L CNN "Vendor"
+F 5 "P33KJCT-ND" H 1900 1350 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 2700 2050 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ330X" H 2700 1950 50  0001 L CNN "MPN"
+F 8 "Resistors" H -1400 6100 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H -1400 6200 50  0001 L CNN "Family"
+F 10 "Yes" H 1900 1350 50  0001 C CNN "Fit"
+F 11 "33R" H 1600 1300 50  0000 L CNN "Resistance"
+F 12 "±5%" H 1400 1300 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 2050 1400 50  0001 L CNN "Power"
+F 14 "N/A" H 1900 1565 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 1450 1400 50  0001 L CNN "Package"
+	1    1900 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 6085CDA5
+P 1900 1450
+AR Path="/60330427/6085CDA5" Ref="R?"  Part="1" 
+AR Path="/606CDE66/6085CDA5" Ref="R?"  Part="1" 
+F 0 "R?" H 2150 1400 50  0000 L CNN
+F 1 "RES-EIA0402" H 2700 2350 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H -1400 5800 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ330X" H -1400 5900 50  0001 L CNN
+F 4 "Digikey" H 1900 1450 50  0001 L CNN "Vendor"
+F 5 "P33KJCT-ND" H 1900 1450 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 2700 2150 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ330X" H 2700 2050 50  0001 L CNN "MPN"
+F 8 "Resistors" H -1400 6200 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H -1400 6300 50  0001 L CNN "Family"
+F 10 "Yes" H 1900 1450 50  0001 C CNN "Fit"
+F 11 "33R" H 1600 1400 50  0000 L CNN "Resistance"
+F 12 "±5%" H 1400 1400 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 2050 1500 50  0001 L CNN "Power"
+F 14 "N/A" H 1900 1665 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 1450 1500 50  0001 L CNN "Package"
+	1    1900 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 6085D372
+P 1900 1550
+AR Path="/60330427/6085D372" Ref="R?"  Part="1" 
+AR Path="/606CDE66/6085D372" Ref="R?"  Part="1" 
+F 0 "R?" H 2150 1500 50  0000 L CNN
+F 1 "RES-EIA0402" H 2700 2450 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H -1400 5900 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ330X" H -1400 6000 50  0001 L CNN
+F 4 "Digikey" H 1900 1550 50  0001 L CNN "Vendor"
+F 5 "P33KJCT-ND" H 1900 1550 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 2700 2250 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ330X" H 2700 2150 50  0001 L CNN "MPN"
+F 8 "Resistors" H -1400 6300 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H -1400 6400 50  0001 L CNN "Family"
+F 10 "Yes" H 1900 1550 50  0001 C CNN "Fit"
+F 11 "33R" H 1600 1500 50  0000 L CNN "Resistance"
+F 12 "±5%" H 1400 1500 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 2050 1600 50  0001 L CNN "Power"
+F 14 "N/A" H 1900 1765 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 1450 1600 50  0001 L CNN "Package"
+	1    1900 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 6085D8AE
+P 1900 1250
+AR Path="/60330427/6085D8AE" Ref="R?"  Part="1" 
+AR Path="/606CDE66/6085D8AE" Ref="R?"  Part="1" 
+F 0 "R?" H 2150 1200 50  0000 L CNN
+F 1 "RES-EIA0402" H 2700 2150 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H -1400 5600 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ330X" H -1400 5700 50  0001 L CNN
+F 4 "Digikey" H 1900 1250 50  0001 L CNN "Vendor"
+F 5 "P33KJCT-ND" H 1900 1250 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 2700 1950 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ330X" H 2700 1850 50  0001 L CNN "MPN"
+F 8 "Resistors" H -1400 6000 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H -1400 6100 50  0001 L CNN "Family"
+F 10 "Yes" H 1900 1250 50  0001 C CNN "Fit"
+F 11 "33R" H 1600 1200 50  0000 L CNN "Resistance"
+F 12 "±5%" H 1400 1200 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 2050 1300 50  0001 L CNN "Power"
+F 14 "N/A" H 1900 1465 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 1450 1300 50  0001 L CNN "Package"
+	1    1900 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 1250 1700 1250
+Wire Wire Line
+	1700 1350 1450 1350
+Wire Wire Line
+	1700 1450 1450 1450
+Wire Wire Line
+	1450 1550 1700 1550
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 608E3B60
+P 950 1700
+F 0 "#PWR?" H 950 1450 50  0001 C CNN
+F 1 "GND" H 955 1527 50  0000 C CNN
+F 2 "" H 950 1700 50  0001 C CNN
+F 3 "" H 950 1700 50  0001 C CNN
+	1    950  1700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1050 1550
+NoConn ~ 1050 1650
+Wire Wire Line
+	1450 1650 2800 1650
+Text Label 2800 1650 2    50   ~ 0
+ESP32_RSTn
 $EndSCHEMATC

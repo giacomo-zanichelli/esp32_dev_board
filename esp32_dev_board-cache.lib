@@ -600,6 +600,45 @@ X GPIO21 42 300 -400 100 L 50 50 4 1 B
 ENDDRAW
 ENDDEF
 #
+# gz_Rectangular-Connectors-Headers-Male-Pins_Samtec-FTSH-105-01-F-DV-K-TR
+#
+DEF gz_Rectangular-Connectors-Headers-Male-Pins_Samtec-FTSH-105-01-F-DV-K-TR J 0 157 Y N 1 F N
+F0 "J" -100 450 50 H V L CNN
+F1 "gz_Rectangular-Connectors-Headers-Male-Pins_Samtec-FTSH-105-01-F-DV-K-TR" 500 850 50 H I L CNN
+F2 "footprints:Samtec_FTSH-105-01-F-DV-K-TR" 500 950 50 H I L CNN
+F3 "" 800 -1300 50 H I L CNN
+F4 "Digikey" 500 750 50 H I L CNN "Vendor"
+F5 "SAM13160CT-ND" 800 750 50 H I L CNN "Vendor_PN"
+F6 "Samtec Inc." -200 -400 50 H V L CNN "Manufacturer"
+F7 "FTSH-105-01-F-DV-K-TR" -200 -500 50 H V L CNN "MPN"
+F8 "Connectors, Interconnects" 500 650 50 H I L CNN "Category"
+F9 "Rectangular Connectors - Headers, Male Pins" 500 550 50 H I L CNN "Family"
+F10 "Yes" 50 450 50 H I L CNN "Fit"
+DRAW
+S -100 250 100 -250 1 1 0 f
+S -60 -190 -40 -210 1 1 0 F
+S -60 -90 -40 -110 1 1 0 F
+S -60 10 -40 -10 1 1 0 F
+S -60 110 -40 90 1 1 0 F
+S -60 210 -40 190 1 1 0 F
+S 40 -190 60 -210 1 1 0 F
+S 40 -90 60 -110 1 1 0 F
+S 40 10 60 -10 1 1 0 F
+S 40 110 60 90 1 1 0 F
+S 40 210 60 190 1 1 0 F
+X ~ 1 -200 200 100 R 50 50 1 1 P
+X ~ 10 200 -200 100 L 50 50 1 1 P
+X ~ 2 200 200 100 L 50 50 1 1 P
+X ~ 3 -200 100 100 R 50 50 1 1 P
+X ~ 4 200 100 100 L 50 50 1 1 P
+X ~ 5 -200 0 100 R 50 50 1 1 P
+X ~ 6 200 0 100 L 50 50 1 1 P
+X ~ 7 -200 -100 100 R 50 50 1 1 P
+X ~ 8 200 -100 100 L 50 50 1 1 P
+X ~ 9 -200 -200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # gz_Rectangular-Connectors-Headers-Male-Pins_WE-61300511121
 #
 DEF gz_Rectangular-Connectors-Headers-Male-Pins_WE-61300511121 J 0 157 Y N 1 F N
