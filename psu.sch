@@ -666,4 +666,6 @@ F 3 "" H 5400 2900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5400 2900 5400 2950
+Text Notes 5000 3400 0    50   ~ 0
+L<20mA>
 $EndSCHEMATC
