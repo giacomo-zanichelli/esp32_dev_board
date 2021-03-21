@@ -1379,13 +1379,13 @@ Wire Wire Line
 Wire Wire Line
 	9850 5300 9400 5300
 Text Label 9400 3000 0    50   ~ 0
-GP_LED1_GR
+GP_LED0_GR
 Text Label 9400 3650 0    50   ~ 0
-GP_LED1_RE
+GP_LED0_RE
 Text Label 9400 5300 0    50   ~ 0
-GP_LED2_RE
+GP_LED1_RE
 Text Label 9400 4700 0    50   ~ 0
-GP_LED2_GR
+GP_LED1_GR
 Wire Wire Line
 	2150 1500 2650 1500
 Wire Wire Line
@@ -1395,13 +1395,13 @@ Wire Wire Line
 Wire Wire Line
 	2150 1800 2650 1800
 Text Label 2650 1500 2    50   ~ 0
-GP_LED1_GR
+GP_LED0_GR
 Text Label 2650 1700 2    50   ~ 0
-GP_LED1_RE
+GP_LED0_RE
 Text Label 2650 1800 2    50   ~ 0
-GP_LED2_GR
+GP_LED1_GR
 Text Label 2650 1600 2    50   ~ 0
-GP_LED2_RE
+GP_LED1_RE
 Text Notes 9400 3750 0    50   ~ 0
 L<20mA>
 Text Notes 9400 3100 0    50   ~ 0
@@ -1412,4 +1412,216 @@ Text Notes 9400 5400 0    50   ~ 0
 L<20mA>
 Text Notes 7550 2000 0    50   ~ 0
 L<20mA>
+$Comp
+L gz_Tactile-Switches:WE-430181038816 SW?
+U 1 1 6074B4B8
+P 7750 3850
+AR Path="/60330427/6074B4B8" Ref="SW?"  Part="1" 
+AR Path="/606CDE66/6074B4B8" Ref="SW?"  Part="1" 
+F 0 "SW?" H 8000 3950 50  0000 L CNN
+F 1 "WE-430181038816" H 8400 4550 50  0001 L CNN
+F 2 "footprints:WE-430181038816_SWSOFL4P150_450X750X380L150X70N" H 8400 4450 50  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/430181038816.pdf" H 7950 4150 50  0001 L CNN
+F 4 "Digikey" H 8400 4350 50  0001 L CNN "Vendor"
+F 5 "732-7003-1-ND" H 8800 4350 50  0001 L CNN "Vendor_PN"
+F 6 "Würth Elektronik" H 8300 3850 50  0000 C CNN "Manufacturer"
+F 7 "430181038816" H 8000 3750 50  0000 L CNN "MPN"
+F 8 "Switches" H 8400 4250 50  0001 L CNN "Category"
+F 9 "Tactile Switches" H 8400 4150 50  0001 L CNN "Family"
+F 10 "Yes" H 7900 4100 50  0001 L CNN "Fit"
+	1    7750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3950 7550 4000
+Wire Wire Line
+	7950 4000 7950 3950
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 6074BA4C
+P 7750 4050
+AR Path="/60330427/6074BA4C" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/6074BA4C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7750 3800 50  0001 C CNN
+F 1 "GND" H 7755 3877 50  0000 C CNN
+F 2 "" H 7750 4050 50  0001 C CNN
+F 3 "" H 7750 4050 50  0001 C CNN
+	1    7750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 6074BA62
+P 7750 3300
+AR Path="/60330427/6074BA62" Ref="R?"  Part="1" 
+AR Path="/606CDE66/6074BA62" Ref="R?"  Part="1" 
+F 0 "R?" V 7550 3400 50  0000 L CNN
+F 1 "RES-EIA0402" H 8550 4200 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 4450 7650 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H 4450 7750 50  0001 L CNN
+F 4 "Digikey" H 7750 3300 50  0001 L CNN "Vendor"
+F 5 "P10KJCT-ND" H 7750 3300 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 8550 4000 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ103X" H 8550 3900 50  0001 L CNN "MPN"
+F 8 "Resistors" H 4450 8050 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 4450 8150 50  0001 L CNN "Family"
+F 10 "Yes" H 7750 3300 50  0001 C CNN "Fit"
+F 11 "10k" V 7650 3400 50  0000 L CNN "Resistance"
+F 12 "±5%" V 7650 3600 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 7750 3400 50  0000 L CNN "Power"
+F 14 "N/A" H 7750 3515 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 7850 3400 50  0000 L CNN "Package"
+	1    7750 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 3750 7550 3650
+Wire Wire Line
+	7950 3650 7950 3750
+Wire Wire Line
+	7550 3650 7750 3650
+Connection ~ 7750 3650
+Wire Wire Line
+	7750 3650 7950 3650
+Wire Wire Line
+	7750 3050 7750 3100
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 6074BA72
+P 7750 3050
+AR Path="/60330427/6074BA72" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/6074BA72" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 3000 50  0001 C CNN
+F 1 "3V3" H 7755 3173 50  0000 C CNN
+F 2 "" H 7750 3050 50  0001 C CNN
+F 3 "" H 7750 3050 50  0001 C CNN
+	1    7750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4000 7750 4000
+Wire Wire Line
+	7750 4000 7750 4050
+Connection ~ 7750 4000
+Wire Wire Line
+	7750 4000 7950 4000
+Text Label 7200 3600 0    50   ~ 0
+GP_SW0
+Connection ~ 7750 3600
+Wire Wire Line
+	7750 3600 7200 3600
+Wire Wire Line
+	7750 3600 7750 3650
+Wire Wire Line
+	7750 3500 7750 3600
+$Comp
+L gz_Tactile-Switches:WE-430181038816 SW?
+U 1 1 6076036F
+P 7750 5450
+AR Path="/60330427/6076036F" Ref="SW?"  Part="1" 
+AR Path="/606CDE66/6076036F" Ref="SW?"  Part="1" 
+F 0 "SW?" H 8000 5550 50  0000 L CNN
+F 1 "WE-430181038816" H 8400 6150 50  0001 L CNN
+F 2 "footprints:WE-430181038816_SWSOFL4P150_450X750X380L150X70N" H 8400 6050 50  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/430181038816.pdf" H 7950 5750 50  0001 L CNN
+F 4 "Digikey" H 8400 5950 50  0001 L CNN "Vendor"
+F 5 "732-7003-1-ND" H 8800 5950 50  0001 L CNN "Vendor_PN"
+F 6 "Würth Elektronik" H 8300 5450 50  0000 C CNN "Manufacturer"
+F 7 "430181038816" H 8000 5350 50  0000 L CNN "MPN"
+F 8 "Switches" H 8400 5850 50  0001 L CNN "Category"
+F 9 "Tactile Switches" H 8400 5750 50  0001 L CNN "Family"
+F 10 "Yes" H 7900 5700 50  0001 L CNN "Fit"
+	1    7750 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 5550 7550 5600
+Wire Wire Line
+	7950 5600 7950 5550
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 60760377
+P 7750 5650
+AR Path="/60330427/60760377" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/60760377" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7750 5400 50  0001 C CNN
+F 1 "GND" H 7755 5477 50  0000 C CNN
+F 2 "" H 7750 5650 50  0001 C CNN
+F 3 "" H 7750 5650 50  0001 C CNN
+	1    7750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 60760389
+P 7750 4900
+AR Path="/60330427/60760389" Ref="R?"  Part="1" 
+AR Path="/606CDE66/60760389" Ref="R?"  Part="1" 
+F 0 "R?" V 7550 5000 50  0000 L CNN
+F 1 "RES-EIA0402" H 8550 5800 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 4450 9250 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H 4450 9350 50  0001 L CNN
+F 4 "Digikey" H 7750 4900 50  0001 L CNN "Vendor"
+F 5 "P10KJCT-ND" H 7750 4900 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 8550 5600 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ103X" H 8550 5500 50  0001 L CNN "MPN"
+F 8 "Resistors" H 4450 9650 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 4450 9750 50  0001 L CNN "Family"
+F 10 "Yes" H 7750 4900 50  0001 C CNN "Fit"
+F 11 "10k" V 7650 5000 50  0000 L CNN "Resistance"
+F 12 "±5%" V 7650 5200 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 7750 5000 50  0000 L CNN "Power"
+F 14 "N/A" H 7750 5115 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 7850 5000 50  0000 L CNN "Package"
+	1    7750 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 5350 7550 5250
+Wire Wire Line
+	7950 5250 7950 5350
+Wire Wire Line
+	7550 5250 7750 5250
+Connection ~ 7750 5250
+Wire Wire Line
+	7750 5250 7950 5250
+Wire Wire Line
+	7750 4650 7750 4700
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 60760395
+P 7750 4650
+AR Path="/60330427/60760395" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/60760395" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 4600 50  0001 C CNN
+F 1 "3V3" H 7755 4773 50  0000 C CNN
+F 2 "" H 7750 4650 50  0001 C CNN
+F 3 "" H 7750 4650 50  0001 C CNN
+	1    7750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 5600 7750 5600
+Wire Wire Line
+	7750 5600 7750 5650
+Connection ~ 7750 5600
+Wire Wire Line
+	7750 5600 7950 5600
+Text Label 7200 5200 0    50   ~ 0
+GP_SW1
+Connection ~ 7750 5200
+Wire Wire Line
+	7750 5200 7200 5200
+Wire Wire Line
+	7750 5200 7750 5250
+Wire Wire Line
+	7750 5100 7750 5200
+Text Label 2650 1400 2    50   ~ 0
+GP_SW0
+Text Label 2650 2100 2    50   ~ 0
+GP_SW1
+Wire Wire Line
+	2150 2100 2650 2100
+Wire Wire Line
+	2150 1400 2650 1400
 $EndSCHEMATC
