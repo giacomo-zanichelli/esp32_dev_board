@@ -740,4 +740,6 @@ Text Label 4850 1900 2    50   ~ 0
 TAP_CTS
 Text Label 5500 1900 2    50   ~ 0
 TAP_DSR
+Text Notes 1200 3450 0    50   ~ 0
+L<TAP>
 $EndSCHEMATC
