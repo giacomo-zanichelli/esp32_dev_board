@@ -787,6 +787,32 @@ X B1 5 -250 0 50 R 50 50 2 1 B
 ENDDRAW
 ENDDEF
 #
+# gz_Transistors-Bipolar-BJT-Single_ON-Semi_BC858CLT1G
+#
+DEF gz_Transistors-Bipolar-BJT-Single_ON-Semi_BC858CLT1G Q 0 0 Y N 1 F N
+F0 "Q" 200 0 50 H V L CNN
+F1 "gz_Transistors-Bipolar-BJT-Single_ON-Semi_BC858CLT1G" 350 1450 50 H I L CNN
+F2 "footprints:ON-Semi-BC858CLT1G_SOT23-3P85_237X111L42X43N" 350 1550 50 H I L CNN
+F3 "" 350 450 50 H I L CNN
+F4 "Digikey" 350 1350 50 H I L CNN "Vendor"
+F5 "BC858CLT1GOSCT-ND" 750 1350 50 H I L CNN "Vendor_PN"
+F6 "ON Semiconductor" 200 -100 50 H V L CNN "Manufacturer"
+F7 "BC858CLT1G" 200 -200 50 H V L CNN "MPN"
+F8 "Discrete Semiconductor Products" 350 1250 50 H I L CNN "Category"
+F9 "Transistors - Bipolar (BJT) - Single" 1750 1250 50 H I L CNN "Family"
+F10 "Yes" 300 0 50 H I L CNN "Fit"
+F11 "SOT-23" 350 1150 50 H I L CNN "Package"
+DRAW
+P 2 1 1 0 0 -25 50 -50 N
+P 2 1 1 0 0 25 50 50 N
+P 2 1 1 0 0 50 0 -50 N
+P 4 1 1 0 10 30 35 30 25 50 10 30 F
+X B 1 -50 0 50 R 50 50 1 1 I
+X E 2 50 100 50 D 50 50 1 1 B
+X C 3 50 -100 50 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # gz_USB-DVI-HDMI-Connectors_Molex-1050170001
 #
 DEF gz_USB-DVI-HDMI-Connectors_Molex-1050170001 J 0 157 Y Y 1 F N

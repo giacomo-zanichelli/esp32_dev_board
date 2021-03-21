@@ -284,12 +284,12 @@ F 15 "EIA0402" V 3950 5150 50  0000 L CNN "Package"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 1900 2550 1900
+	2150 1900 2650 1900
 Wire Wire Line
-	2150 2000 2550 2000
-Text Label 2550 2000 2    50   ~ 0
+	2150 2000 2650 2000
+Text Label 2650 2000 2    50   ~ 0
 TAP_TXD
-Text Label 2550 1900 2    50   ~ 0
+Text Label 2650 1900 2    50   ~ 0
 TAP_RXD
 $Comp
 L gz_Rectangular-Connectors-Headers-Male-Pins:WE-61300511121 J?
@@ -742,4 +742,674 @@ Text Label 5500 1900 2    50   ~ 0
 TAP_DSR
 Text Notes 1200 3450 0    50   ~ 0
 L<TAP>
+$Comp
+L gz_Ceramic-Capacitors:CAP-EIA0402 C?
+U 1 1 605B8567
+P 9150 1450
+AR Path="/60330427/605B8567" Ref="C?"  Part="1" 
+AR Path="/606CDE66/605B8567" Ref="C?"  Part="1" 
+F 0 "C?" V 9100 1600 50  0000 L CNN
+F 1 "CAP-EIA0402" H 9550 2550 50  0001 L CNN
+F 2 "footprints_generic:CAPC100X50X55L30N" H 5850 5800 50  0001 L CNN
+F 3 "${KEMET_MLCC_BASE}C0402C105K4PACTU" H 5850 5900 50  0001 L CNN
+F 4 "Digikey" H 9150 1450 50  0001 L CNN "Vendor"
+F 5 "399-12289-1-ND" H 9150 1450 50  0001 L CNN "Vendor_PN"
+F 6 "KEMET" H 9550 2350 50  0001 L CNN "Manufacturer"
+F 7 "C0402C105K4PACTU" H 9550 2250 50  0001 L CNN "MPN"
+F 8 "Capacitors" H 5850 6200 50  0001 L CNN "Category"
+F 9 "Ceramic Capacitors" H 5850 6300 50  0001 L CNN "Family"
+F 10 "NF" V 9100 1750 50  0000 L CNN "Fit"
+F 11 "1uF" V 9200 1600 50  0000 L CNN "Capacitance"
+F 12 "±10%" V 9200 1750 50  0000 L CNN "Tolerance"
+F 13 "16V" V 9300 1600 50  0000 L CNN "Voltage"
+F 14 "X5R" V 9300 1800 50  0000 L CNN "Dielectric"
+F 15 "EIA0402" V 9400 1600 50  0000 L CNN "Package"
+	1    9150 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 605B856D
+P 9150 1600
+AR Path="/60330427/605B856D" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605B856D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 1350 50  0001 C CNN
+F 1 "GND" H 9155 1427 50  0000 C CNN
+F 2 "" H 9150 1600 50  0001 C CNN
+F 3 "" H 9150 1600 50  0001 C CNN
+	1    9150 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1550 9150 1600
+Wire Wire Line
+	9150 1300 9150 1350
+$Comp
+L gz_Tactile-Switches:WE-430181038816 SW?
+U 1 1 605B857C
+P 10150 1500
+AR Path="/60330427/605B857C" Ref="SW?"  Part="1" 
+AR Path="/606CDE66/605B857C" Ref="SW?"  Part="1" 
+F 0 "SW?" H 10400 1600 50  0000 L CNN
+F 1 "WE-430181038816" H 10800 2200 50  0001 L CNN
+F 2 "footprints:WE-430181038816_SWSOFL4P150_450X750X380L150X70N" H 10800 2100 50  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/430181038816.pdf" H 10350 1800 50  0001 L CNN
+F 4 "Digikey" H 10800 2000 50  0001 L CNN "Vendor"
+F 5 "732-7003-1-ND" H 11200 2000 50  0001 L CNN "Vendor_PN"
+F 6 "Würth Elektronik" H 10700 1500 50  0000 C CNN "Manufacturer"
+F 7 "430181038816" H 10400 1400 50  0000 L CNN "MPN"
+F 8 "Switches" H 10800 1900 50  0001 L CNN "Category"
+F 9 "Tactile Switches" H 10800 1800 50  0001 L CNN "Family"
+F 10 "Yes" H 10300 1750 50  0001 L CNN "Fit"
+	1    10150 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1600 9950 1650
+Wire Wire Line
+	10350 1650 10350 1600
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 605B8584
+P 10150 1700
+AR Path="/60330427/605B8584" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605B8584" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10150 1450 50  0001 C CNN
+F 1 "GND" H 10155 1527 50  0000 C CNN
+F 2 "" H 10150 1700 50  0001 C CNN
+F 3 "" H 10150 1700 50  0001 C CNN
+	1    10150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 605B8596
+P 10150 1050
+AR Path="/60330427/605B8596" Ref="R?"  Part="1" 
+AR Path="/606CDE66/605B8596" Ref="R?"  Part="1" 
+F 0 "R?" V 9950 1150 50  0000 L CNN
+F 1 "RES-EIA0402" H 10950 1950 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 6850 5400 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H 6850 5500 50  0001 L CNN
+F 4 "Digikey" H 10150 1050 50  0001 L CNN "Vendor"
+F 5 "P10KJCT-ND" H 10150 1050 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 10950 1750 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ103X" H 10950 1650 50  0001 L CNN "MPN"
+F 8 "Resistors" H 6850 5800 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 6850 5900 50  0001 L CNN "Family"
+F 10 "Yes" H 10150 1050 50  0001 C CNN "Fit"
+F 11 "10k" V 10050 1150 50  0000 L CNN "Resistance"
+F 12 "±5%" V 10050 1350 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 10150 1150 50  0000 L CNN "Power"
+F 14 "N/A" H 10150 1265 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 10250 1150 50  0000 L CNN "Package"
+	1    10150 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 1400 9950 1300
+Wire Wire Line
+	10350 1300 10350 1400
+Text Label 9700 1300 2    50   ~ 0
+ESP32_RSTn
+Wire Wire Line
+	9950 1300 10150 1300
+Wire Wire Line
+	10150 1300 10150 1250
+Connection ~ 10150 1300
+Wire Wire Line
+	10150 1300 10350 1300
+Wire Wire Line
+	10150 800  10150 850 
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 605B85A4
+P 10150 800
+AR Path="/60330427/605B85A4" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605B85A4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10300 750 50  0001 C CNN
+F 1 "3V3" H 10155 923 50  0000 C CNN
+F 2 "" H 10150 800 50  0001 C CNN
+F 3 "" H 10150 800 50  0001 C CNN
+	1    10150 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1650 10150 1650
+Wire Wire Line
+	10150 1650 10150 1700
+Connection ~ 10150 1650
+Wire Wire Line
+	10150 1650 10350 1650
+$Comp
+L gz_Tactile-Switches:WE-430181038816 SW?
+U 1 1 605B85B5
+P 6800 1550
+AR Path="/60330427/605B85B5" Ref="SW?"  Part="1" 
+AR Path="/606CDE66/605B85B5" Ref="SW?"  Part="1" 
+F 0 "SW?" H 7050 1650 50  0000 L CNN
+F 1 "WE-430181038816" H 7450 2250 50  0001 L CNN
+F 2 "footprints:WE-430181038816_SWSOFL4P150_450X750X380L150X70N" H 7450 2150 50  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/430181038816.pdf" H 7000 1850 50  0001 L CNN
+F 4 "Digikey" H 7450 2050 50  0001 L CNN "Vendor"
+F 5 "732-7003-1-ND" H 7850 2050 50  0001 L CNN "Vendor_PN"
+F 6 "Würth Elektronik" H 7350 1550 50  0000 C CNN "Manufacturer"
+F 7 "430181038816" H 7050 1450 50  0000 L CNN "MPN"
+F 8 "Switches" H 7450 1950 50  0001 L CNN "Category"
+F 9 "Tactile Switches" H 7450 1850 50  0001 L CNN "Family"
+F 10 "Yes" H 6950 1800 50  0001 L CNN "Fit"
+	1    6800 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1650 6600 1700
+Wire Wire Line
+	7000 1700 7000 1650
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 605B85BD
+P 6800 1750
+AR Path="/60330427/605B85BD" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605B85BD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6800 1500 50  0001 C CNN
+F 1 "GND" H 6805 1577 50  0000 C CNN
+F 2 "" H 6800 1750 50  0001 C CNN
+F 3 "" H 6800 1750 50  0001 C CNN
+	1    6800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 605B85CF
+P 6800 1000
+AR Path="/60330427/605B85CF" Ref="R?"  Part="1" 
+AR Path="/606CDE66/605B85CF" Ref="R?"  Part="1" 
+F 0 "R?" V 6600 1100 50  0000 L CNN
+F 1 "RES-EIA0402" H 7600 1900 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 3500 5350 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ103X" H 3500 5450 50  0001 L CNN
+F 4 "Digikey" H 6800 1000 50  0001 L CNN "Vendor"
+F 5 "P10KJCT-ND" H 6800 1000 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 7600 1700 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ103X" H 7600 1600 50  0001 L CNN "MPN"
+F 8 "Resistors" H 3500 5750 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 3500 5850 50  0001 L CNN "Family"
+F 10 "Yes" H 6800 1000 50  0001 C CNN "Fit"
+F 11 "10k" V 6700 1100 50  0000 L CNN "Resistance"
+F 12 "±5%" V 6700 1300 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 6800 1100 50  0000 L CNN "Power"
+F 14 "N/A" H 6800 1215 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 6900 1100 50  0000 L CNN "Package"
+	1    6800 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 1450 6600 1350
+Wire Wire Line
+	7000 1350 7000 1450
+Wire Wire Line
+	6600 1350 6800 1350
+Connection ~ 6800 1350
+Wire Wire Line
+	6800 1350 7000 1350
+Wire Wire Line
+	6800 750  6800 800 
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 605B85DC
+P 6800 750
+AR Path="/60330427/605B85DC" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605B85DC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6950 700 50  0001 C CNN
+F 1 "3V3" H 6805 873 50  0000 C CNN
+F 2 "" H 6800 750 50  0001 C CNN
+F 3 "" H 6800 750 50  0001 C CNN
+	1    6800 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1700 6800 1700
+Wire Wire Line
+	6800 1700 6800 1750
+Connection ~ 6800 1700
+Wire Wire Line
+	6800 1700 7000 1700
+Text Label 6250 1300 0    50   ~ 0
+BOOT_MODE
+$Comp
+L gz_LED-Indication-Discrete:LiteOn-LTST-C155KGJRKT LED?
+U 2 1 605B85EF
+P 7950 2050
+AR Path="/6032FC47/605B85EF" Ref="LED?"  Part="2" 
+AR Path="/60330427/605B85EF" Ref="LED?"  Part="2" 
+AR Path="/606CDE66/605B85EF" Ref="LED?"  Part="2" 
+F 0 "LED?" V 7909 2228 50  0000 L CNN
+F 1 "LiteOn-LTST-C155KGJRKT" H 8500 3300 50  0001 L CNN
+F 2 "footprints:LiteOn-LTST-C155_LEDCAV4P138_270X320X110L50X90N" H 8500 3200 50  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2001-038/LTST-C155KGJRKT.pdf" H 7050 2750 50  0001 L CNN
+F 4 "Digikey" H 8500 3100 50  0001 L CNN "Vendor"
+F 5 "160-1409-1-ND" H 8900 3100 50  0001 L CNN "Vendor_PN"
+F 6 "Lite-On Inc." V 8000 2228 50  0000 L CNN "Manufacturer"
+F 7 "LTST-C155KGJRKT" V 8091 2228 50  0000 L CNN "MPN"
+F 8 "Optoelectronics" H 8500 3000 50  0001 L CNN "Category"
+F 9 "LED Indication - Discrete" H 8500 2900 50  0001 L CNN "Family"
+F 10 "Yes" H 7950 2600 50  0001 L CNN "Fit"
+	2    7950 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 605B8601
+P 7950 1700
+AR Path="/6032FC47/605B8601" Ref="R?"  Part="1" 
+AR Path="/60330427/605B8601" Ref="R?"  Part="1" 
+AR Path="/606CDE66/605B8601" Ref="R?"  Part="1" 
+F 0 "R?" V 7800 1800 50  0000 L CNN
+F 1 "RES-EIA0402" H 8750 2600 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 4650 6050 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ510X" H 4650 6150 50  0001 L CNN
+F 4 "Digikey" H 7950 1700 50  0001 L CNN "Vendor"
+F 5 "P51JCT-ND" H 7950 1700 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 8750 2400 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ510X" H 8750 2300 50  0001 L CNN "MPN"
+F 8 "Resistors" H 4650 6450 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 4650 6550 50  0001 L CNN "Family"
+F 10 "Yes" H 7950 1700 50  0001 L CNN "Fit"
+F 11 "51R" V 7900 1800 50  0000 L CNN "Resistance"
+F 12 "±5%" V 7900 2000 50  0000 L CNN "Tolerance"
+F 13 "1/10W" V 8000 1800 50  0000 L CNN "Power"
+F 14 "N/A" V 8086 1778 50  0001 L CNN "Voltage"
+F 15 "EIA0402" V 8100 1800 50  0000 L CNN "Package"
+	1    7950 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 605B8607
+P 7950 2300
+AR Path="/60330427/605B8607" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/605B8607" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7950 2050 50  0001 C CNN
+F 1 "GND" H 7955 2127 50  0000 C CNN
+F 2 "" H 7950 2300 50  0001 C CNN
+F 3 "" H 7950 2300 50  0001 C CNN
+	1    7950 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2250 7950 2300
+Wire Wire Line
+	7950 1950 7950 1900
+Wire Wire Line
+	9150 1300 9950 1300
+Connection ~ 9950 1300
+$Comp
+L gz_LED-Indication-Discrete:LiteOn-LTST-C155KGJRKT LED?
+U 1 1 605C027A
+P 10550 4700
+F 0 "LED?" H 10600 5105 50  0000 C CNN
+F 1 "LiteOn-LTST-C155KGJRKT" H 11100 5950 50  0001 L CNN
+F 2 "footprints:LiteOn-LTST-C155_LEDCAV4P138_270X320X110L50X90N" H 11100 5850 50  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2001-038/LTST-C155KGJRKT.pdf" H 9650 5400 50  0001 L CNN
+F 4 "Digikey" H 11100 5750 50  0001 L CNN "Vendor"
+F 5 "160-1409-1-ND" H 11500 5750 50  0001 L CNN "Vendor_PN"
+F 6 "Lite-On Inc." H 10600 5014 50  0000 C CNN "Manufacturer"
+F 7 "LTST-C155KGJRKT" H 10600 4923 50  0000 C CNN "MPN"
+F 8 "Optoelectronics" H 11100 5650 50  0001 L CNN "Category"
+F 9 "LED Indication - Discrete" H 11100 5550 50  0001 L CNN "Family"
+F 10 "Yes" H 10550 5250 50  0001 L CNN "Fit"
+	1    10550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_LED-Indication-Discrete:LiteOn-LTST-C155KGJRKT LED?
+U 2 1 605C138F
+P 10550 5300
+F 0 "LED?" H 10600 5705 50  0000 C CNN
+F 1 "LiteOn-LTST-C155KGJRKT" H 11100 6550 50  0001 L CNN
+F 2 "footprints:LiteOn-LTST-C155_LEDCAV4P138_270X320X110L50X90N" H 11100 6450 50  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2001-038/LTST-C155KGJRKT.pdf" H 9650 6000 50  0001 L CNN
+F 4 "Digikey" H 11100 6350 50  0001 L CNN "Vendor"
+F 5 "160-1409-1-ND" H 11500 6350 50  0001 L CNN "Vendor_PN"
+F 6 "Lite-On Inc." H 10600 5614 50  0000 C CNN "Manufacturer"
+F 7 "LTST-C155KGJRKT" H 10600 5523 50  0000 C CNN "MPN"
+F 8 "Optoelectronics" H 11100 6250 50  0001 L CNN "Category"
+F 9 "LED Indication - Discrete" H 11100 6150 50  0001 L CNN "Family"
+F 10 "Yes" H 10550 5850 50  0001 L CNN "Fit"
+	2    10550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_LED-Indication-Discrete:LiteOn-LTST-C155KGJRKT LED?
+U 1 1 605C2886
+P 10550 3000
+F 0 "LED?" H 10600 3405 50  0000 C CNN
+F 1 "LiteOn-LTST-C155KGJRKT" H 11100 4250 50  0001 L CNN
+F 2 "footprints:LiteOn-LTST-C155_LEDCAV4P138_270X320X110L50X90N" H 11100 4150 50  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2001-038/LTST-C155KGJRKT.pdf" H 9650 3700 50  0001 L CNN
+F 4 "Digikey" H 11100 4050 50  0001 L CNN "Vendor"
+F 5 "160-1409-1-ND" H 11500 4050 50  0001 L CNN "Vendor_PN"
+F 6 "Lite-On Inc." H 10600 3314 50  0000 C CNN "Manufacturer"
+F 7 "LTST-C155KGJRKT" H 10600 3223 50  0000 C CNN "MPN"
+F 8 "Optoelectronics" H 11100 3950 50  0001 L CNN "Category"
+F 9 "LED Indication - Discrete" H 11100 3850 50  0001 L CNN "Family"
+F 10 "Yes" H 10550 3550 50  0001 L CNN "Fit"
+	1    10550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_LED-Indication-Discrete:LiteOn-LTST-C155KGJRKT LED?
+U 2 1 605C3A7B
+P 10550 3650
+F 0 "LED?" H 10600 4055 50  0000 C CNN
+F 1 "LiteOn-LTST-C155KGJRKT" H 11100 4900 50  0001 L CNN
+F 2 "footprints:LiteOn-LTST-C155_LEDCAV4P138_270X320X110L50X90N" H 11100 4800 50  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2001-038/LTST-C155KGJRKT.pdf" H 9650 4350 50  0001 L CNN
+F 4 "Digikey" H 11100 4700 50  0001 L CNN "Vendor"
+F 5 "160-1409-1-ND" H 11500 4700 50  0001 L CNN "Vendor_PN"
+F 6 "Lite-On Inc." H 10600 3964 50  0000 C CNN "Manufacturer"
+F 7 "LTST-C155KGJRKT" H 10600 3873 50  0000 C CNN "MPN"
+F 8 "Optoelectronics" H 11100 4600 50  0001 L CNN "Category"
+F 9 "LED Indication - Discrete" H 11100 4500 50  0001 L CNN "Family"
+F 10 "Yes" H 10550 4200 50  0001 L CNN "Fit"
+	2    10550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Transistors-Bipolar-BJT-Single:ON-Semi_BC858CLT1G Q?
+U 1 1 60577A2F
+P 7900 1300
+F 0 "Q?" H 8038 1391 50  0000 L CNN
+F 1 "ON-Semi_BC858CLT1G" H 8250 2750 50  0001 L CNN
+F 2 "footprints:ON-Semi-BC858CLT1G_SOT23-3P85_237X111L42X43N" H 8250 2850 50  0001 L CNN
+F 3 "${DATASHEETS}/ON-Semi_BC856ALT1-D.PDF" H 8250 1750 50  0001 L CNN
+F 4 "Digikey" H 8250 2650 50  0001 L CNN "Vendor"
+F 5 "BC858CLT1GOSCT-ND" H 8650 2650 50  0001 L CNN "Vendor_PN"
+F 6 "ON Semiconductor" H 8038 1300 50  0000 L CNN "Manufacturer"
+F 7 "BC858CLT1G" H 8038 1209 50  0000 L CNN "MPN"
+F 8 "Discrete Semiconductor Products" H 8250 2550 50  0001 L CNN "Category"
+F 9 "Transistors - Bipolar (BJT) - Single" H 9650 2550 50  0001 L CNN "Family"
+F 10 "Yes" H 8200 1300 50  0001 L CNN "Fit"
+F 11 "SOT-23" H 8250 2450 50  0001 L CNN "Package"
+	1    7900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:3V3 #PWR?
+U 1 1 60584E9C
+P 7950 1100
+AR Path="/60330427/60584E9C" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/60584E9C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8100 1050 50  0001 C CNN
+F 1 "3V3" H 7955 1223 50  0000 C CNN
+F 2 "" H 7950 1100 50  0001 C CNN
+F 3 "" H 7950 1100 50  0001 C CNN
+	1    7950 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1100 7950 1200
+Wire Wire Line
+	7950 1400 7950 1500
+Wire Wire Line
+	7700 1300 7850 1300
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 605E2F25
+P 7500 1300
+AR Path="/60330427/605E2F25" Ref="R?"  Part="1" 
+AR Path="/606CDE66/605E2F25" Ref="R?"  Part="1" 
+F 0 "R?" H 7350 1750 50  0000 L CNN
+F 1 "RES-EIA0402" H 8300 2200 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 4200 5650 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ123X" H 4200 5750 50  0001 L CNN
+F 4 "Digikey" H 7500 1300 50  0001 L CNN "Vendor"
+F 5 "P12KJCT-ND" H 7500 1300 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 8300 2000 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ123X" H 8300 1900 50  0001 L CNN "MPN"
+F 8 "Resistors" H 4200 6050 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 4200 6150 50  0001 L CNN "Family"
+F 10 "Yes" H 8000 1500 50  0001 L CNN "Fit"
+F 11 "12k" H 7350 1650 50  0000 L CNN "Resistance"
+F 12 "5%" H 7550 1650 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 7350 1550 50  0000 L CNN "Power"
+F 14 "N/A" H 7500 1515 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 7350 1450 50  0000 L CNN "Package"
+	1    7500 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 1300
+Wire Wire Line
+	6800 1200 6800 1250
+Wire Wire Line
+	6800 1300 6250 1300
+Wire Wire Line
+	6800 1300 6800 1350
+Wire Wire Line
+	6800 1250 6900 1250
+Wire Wire Line
+	6900 1250 6900 1300
+Wire Wire Line
+	6900 1300 7300 1300
+Connection ~ 6800 1250
+Wire Wire Line
+	6800 1250 6800 1300
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 6065DBE4
+P 10050 4700
+AR Path="/60330427/6065DBE4" Ref="R?"  Part="1" 
+AR Path="/606CDE66/6065DBE4" Ref="R?"  Part="1" 
+F 0 "R?" H 9900 5150 50  0000 L CNN
+F 1 "RES-EIA0402" H 10850 5600 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 6750 9050 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ181X" H 6750 9150 50  0001 L CNN
+F 4 "Digikey" H 10050 4700 50  0001 L CNN "Vendor"
+F 5 "P180JCT-ND" H 10050 4700 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 10850 5400 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ181X" H 10850 5300 50  0001 L CNN "MPN"
+F 8 "Resistors" H 6750 9450 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 6750 9550 50  0001 L CNN "Family"
+F 10 "Yes" H 10550 4900 50  0001 L CNN "Fit"
+F 11 "180R" H 9900 5050 50  0000 L CNN "Resistance"
+F 12 "5%" H 10150 5050 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 9900 4950 50  0000 L CNN "Power"
+F 14 "N/A" H 10050 4915 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 9900 4850 50  0000 L CNN "Package"
+	1    10050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 6066206E
+P 10050 5300
+AR Path="/60330427/6066206E" Ref="R?"  Part="1" 
+AR Path="/606CDE66/6066206E" Ref="R?"  Part="1" 
+F 0 "R?" H 9900 5750 50  0000 L CNN
+F 1 "RES-EIA0402" H 10850 6200 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 6750 9650 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ181X" H 6750 9750 50  0001 L CNN
+F 4 "Digikey" H 10050 5300 50  0001 L CNN "Vendor"
+F 5 "P180JCT-ND" H 10050 5300 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 10850 6000 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ181X" H 10850 5900 50  0001 L CNN "MPN"
+F 8 "Resistors" H 6750 10050 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 6750 10150 50  0001 L CNN "Family"
+F 10 "Yes" H 10550 5500 50  0001 L CNN "Fit"
+F 11 "180R" H 9900 5650 50  0000 L CNN "Resistance"
+F 12 "5%" H 10150 5650 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 9900 5550 50  0000 L CNN "Power"
+F 14 "N/A" H 10050 5515 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 9900 5450 50  0000 L CNN "Package"
+	1    10050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 60662AB9
+P 10050 3000
+AR Path="/60330427/60662AB9" Ref="R?"  Part="1" 
+AR Path="/606CDE66/60662AB9" Ref="R?"  Part="1" 
+F 0 "R?" H 9900 3450 50  0000 L CNN
+F 1 "RES-EIA0402" H 10850 3900 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 6750 7350 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ181X" H 6750 7450 50  0001 L CNN
+F 4 "Digikey" H 10050 3000 50  0001 L CNN "Vendor"
+F 5 "P180JCT-ND" H 10050 3000 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 10850 3700 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ181X" H 10850 3600 50  0001 L CNN "MPN"
+F 8 "Resistors" H 6750 7750 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 6750 7850 50  0001 L CNN "Family"
+F 10 "Yes" H 10550 3200 50  0001 L CNN "Fit"
+F 11 "180R" H 9900 3350 50  0000 L CNN "Resistance"
+F 12 "5%" H 10150 3350 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 9900 3250 50  0000 L CNN "Power"
+F 14 "N/A" H 10050 3215 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 9900 3150 50  0000 L CNN "Package"
+	1    10050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Chip-Resistors-Surface-Mount:RES-EIA0402 R?
+U 1 1 606633CD
+P 10050 3650
+AR Path="/60330427/606633CD" Ref="R?"  Part="1" 
+AR Path="/606CDE66/606633CD" Ref="R?"  Part="1" 
+F 0 "R?" H 9900 4100 50  0000 L CNN
+F 1 "RES-EIA0402" H 10850 4550 50  0001 L CNN
+F 2 "footprints_generic:RESC100X50X40L25NN" H 6750 8000 50  0001 L CNN
+F 3 "${PANASONIC_GP_CHIP_RES_BASE}ERJ2GEJ181X" H 6750 8100 50  0001 L CNN
+F 4 "Digikey" H 10050 3650 50  0001 L CNN "Vendor"
+F 5 "P180JCT-ND" H 10050 3650 50  0001 L CNN "Vendor_PN"
+F 6 "Panasonic Electronic Components" H 10850 4350 50  0001 L CNN "Manufacturer"
+F 7 "ERJ2GEJ181X" H 10850 4250 50  0001 L CNN "MPN"
+F 8 "Resistors" H 6750 8400 50  0001 L CNN "Category"
+F 9 "Chip Resistor - Surface Mount" H 6750 8500 50  0001 L CNN "Family"
+F 10 "Yes" H 10550 3850 50  0001 L CNN "Fit"
+F 11 "180R" H 9900 4000 50  0000 L CNN "Resistance"
+F 12 "5%" H 10150 4000 50  0000 L CNN "Tolerance"
+F 13 "1/10W" H 9900 3900 50  0000 L CNN "Power"
+F 14 "N/A" H 10050 3865 50  0001 L CNN "Voltage"
+F 15 "EIA0402" H 9900 3800 50  0000 L CNN "Package"
+	1    10050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 6068A46E
+P 10850 3700
+AR Path="/60330427/6068A46E" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/6068A46E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10850 3450 50  0001 C CNN
+F 1 "GND" H 10855 3527 50  0000 C CNN
+F 2 "" H 10850 3700 50  0001 C CNN
+F 3 "" H 10850 3700 50  0001 C CNN
+	1    10850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 6068AC99
+P 10850 3050
+AR Path="/60330427/6068AC99" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/6068AC99" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10850 2800 50  0001 C CNN
+F 1 "GND" H 10855 2877 50  0000 C CNN
+F 2 "" H 10850 3050 50  0001 C CNN
+F 3 "" H 10850 3050 50  0001 C CNN
+	1    10850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 6068B467
+P 10850 4750
+AR Path="/60330427/6068B467" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/6068B467" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10850 4500 50  0001 C CNN
+F 1 "GND" H 10855 4577 50  0000 C CNN
+F 2 "" H 10850 4750 50  0001 C CNN
+F 3 "" H 10850 4750 50  0001 C CNN
+	1    10850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L gz_Power-Symbols:GND #PWR?
+U 1 1 6068BC0A
+P 10850 5350
+AR Path="/60330427/6068BC0A" Ref="#PWR?"  Part="1" 
+AR Path="/606CDE66/6068BC0A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10850 5100 50  0001 C CNN
+F 1 "GND" H 10855 5177 50  0000 C CNN
+F 2 "" H 10850 5350 50  0001 C CNN
+F 3 "" H 10850 5350 50  0001 C CNN
+	1    10850 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 5350 10850 5300
+Wire Wire Line
+	10850 5300 10750 5300
+Wire Wire Line
+	10850 4750 10850 4700
+Wire Wire Line
+	10850 4700 10750 4700
+Wire Wire Line
+	10850 3050 10850 3000
+Wire Wire Line
+	10850 3000 10750 3000
+Wire Wire Line
+	10850 3700 10850 3650
+Wire Wire Line
+	10850 3650 10750 3650
+Wire Wire Line
+	10250 3650 10450 3650
+Wire Wire Line
+	10450 3000 10250 3000
+Wire Wire Line
+	10450 5300 10250 5300
+Wire Wire Line
+	10250 4700 10450 4700
+Wire Wire Line
+	9850 3000 9400 3000
+Wire Wire Line
+	9850 3650 9400 3650
+Wire Wire Line
+	9850 4700 9400 4700
+Wire Wire Line
+	9850 5300 9400 5300
+Text Label 9400 3000 0    50   ~ 0
+GP_LED1_GR
+Text Label 9400 3650 0    50   ~ 0
+GP_LED1_RE
+Text Label 9400 5300 0    50   ~ 0
+GP_LED2_RE
+Text Label 9400 4700 0    50   ~ 0
+GP_LED2_GR
+Wire Wire Line
+	2150 1500 2650 1500
+Wire Wire Line
+	2150 1600 2650 1600
+Wire Wire Line
+	2150 1700 2650 1700
+Wire Wire Line
+	2150 1800 2650 1800
+Text Label 2650 1500 2    50   ~ 0
+GP_LED1_GR
+Text Label 2650 1700 2    50   ~ 0
+GP_LED1_RE
+Text Label 2650 1800 2    50   ~ 0
+GP_LED2_GR
+Text Label 2650 1600 2    50   ~ 0
+GP_LED2_RE
+Text Notes 9400 3750 0    50   ~ 0
+L<20mA>
+Text Notes 9400 3100 0    50   ~ 0
+L<20mA>
+Text Notes 9400 4800 0    50   ~ 0
+L<20mA>
+Text Notes 9400 5400 0    50   ~ 0
+L<20mA>
+Text Notes 7550 2000 0    50   ~ 0
+L<20mA>
 $EndSCHEMATC

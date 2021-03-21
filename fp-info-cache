@@ -1,4 +1,4 @@
-72665503576052
+74281829715052
 footprints
 Espressif-ESP32_QFN49P40_600X600X90L40X20T430N
 Quad Flat No-Lead (QFN with Tab), 0.40 mm pitch; square, 12 pin X 12 pin, 6.00 mm L X 6.00 mm W X 0.90 mm H body
@@ -27,6 +27,13 @@ Micro-USB SMD Typ-B
 0
 13
 6
+footprints
+ON-Semi-BC858CLT1G_SOT23-3P85_237X111L42X43N
+Small Outline Transistor, SOT-23 Type, 0.85 mm pitch; 3 pin, 2.92 mm L X 1.30 mm W X 1.11 mm H Body
+
+0
+3
+3
 footprints
 ON-Semi-MUN5211DW1T1G_SOT23-6P65_210X110L36X20L
 Small Outline Transistor, SOT-23 Type, 0.65 mm pitch; 6 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H Body
