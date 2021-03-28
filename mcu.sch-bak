@@ -1527,8 +1527,6 @@ Wire Notes Line style solid
 	8900 5550 8925 5525
 Wire Notes Line style solid
 	8900 5550 8925 5575
-Wire Wire Line
-	8100 5500 9000 5500
 Connection ~ 8100 5500
 Wire Wire Line
 	5850 5500 7250 5500
@@ -1975,4 +1973,38 @@ F 10 "Yes" H 900 2950 50  0001 L CNN "Fit"
 	1    900  2600
 	1    0    0    1   
 $EndComp
+$Comp
+L gz_RF-Antennas:WE-7488930245 A?
+U 1 1 60620A37
+P 9200 5500
+F 0 "A?" H 9600 5950 50  0000 L CNN
+F 1 "WE-7488930245" H 10000 6400 50  0001 L CNN
+F 2 "footprints:WE-7488930245_ANTC320X160X140L50N" H 10000 6500 50  0001 L CNN
+F 3 "${DATASHEETS}/WE-7488930245.pdf" H 10250 5650 50  0001 L CNN
+F 4 "Digikey" H 10000 6300 50  0001 L CNN "Vendor"
+F 5 "732-1843-1-ND" H 10350 6300 50  0001 L CNN "Vendor_PN"
+F 6 "Würth Elektronik" H 9600 5850 50  0000 L CNN "Manufacturer"
+F 7 "7488930245" H 9600 5750 50  0000 L CNN "MPN"
+F 8 "RF/IF and RFID" H 10000 6200 50  0001 L CNN "Category"
+F 9 "RF Antennas" H 10000 6100 50  0001 L CNN "Family"
+F 10 "2400 - 2500MHz" H 9600 5650 50  0000 L CNN "Frequency"
+F 11 "0.5dBi" H 9600 5550 50  0000 L CNN "Peak Gain"
+F 12 "50R" H 9950 5550 50  0000 L CNN "Impedance"
+F 13 "Yes" H 9600 5350 50  0001 L CNN "Fit"
+F 14 "EIA1206" H 9600 5450 50  0000 L CNN "Package"
+	1    9200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 5500 9200 5500
+Text Notes 9300 5850 2    50   ~ 0
+50R
+Wire Notes Line style solid
+	9200 5750 9200 5550
+Wire Notes Line style solid
+	9200 5550 9300 5550
+Wire Notes Line style solid
+	9300 5550 9275 5525
+Wire Notes Line style solid
+	9300 5550 9275 5575
 $EndSCHEMATC
