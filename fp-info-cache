@@ -1,4 +1,4 @@
-75898159682052
+79132027280052
 footprints
 Espressif-ESP32_QFN49P40_600X600X90L40X20T430N
 Quad Flat No-Lead (QFN with Tab), 0.40 mm pitch; square, 12 pin X 12 pin, 6.00 mm L X 6.00 mm W X 0.90 mm H body
@@ -125,6 +125,20 @@ Header, Vertical, 2.54 mm pitch; 0.79 mm lead width, 6 pins, 1 row, 6 pins per r
 0
 6
 6
+footprints
+WE-61301011121_HDRV10W64P254_10X1_2540X254X884N
+Header, Vertical Non-Shroulded, 2.54 mm pitch; 0.79 mm lead width, 10 pins, 1 row, 10 pins per row, 25.40 mm L X 2.54 mm W X 8.84 mm H Body
+
+0
+10
+10
+footprints
+WE-61302011121_HDRV20W64P254_20X1_5080X254X884N
+Header, Vertical Non-Shroulded, 2.54 mm pitch; 0.79 mm lead width, 20 pins, 1 row, 20 pins per row, 50.80 mm L X 2.54 mm W X 8.84 mm H Body
+
+0
+20
+20
 footprints_generic
 BEADC100X50X55L25N
 Ferrite Bead, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body; EIA0402

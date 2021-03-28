@@ -668,6 +668,45 @@ X Pin_5 5 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# gz_Rectangular-Connectors-Headers-Male-Pins_WE-61301011121
+#
+DEF gz_Rectangular-Connectors-Headers-Male-Pins_WE-61301011121 J 0 157 Y N 1 F N
+F0 "J" -100 150 50 H V L CNN
+F1 "gz_Rectangular-Connectors-Headers-Male-Pins_WE-61301011121" 500 850 50 H I L CNN
+F2 "footprints:WE-61301011121_HDRV10W64P254_10X1_2540X254X884N" 500 950 50 H I L CNN
+F3 "" 800 -150 50 H I L CNN
+F4 "Digikey" 500 750 50 H I L CNN "Vendor"
+F5 "732-2670-ND" 800 750 50 H I L CNN "Vendor_PN"
+F6 "Würth Elektronik" -100 -1050 50 H V L CNN "Manufacturer"
+F7 "61301011121" -100 -1150 50 H V L CNN "MPN"
+F8 "Connectors, Interconnects" 500 650 50 H I L CNN "Category"
+F9 "Rectangular Connectors - Headers, Male Pins" 500 550 50 H I L CNN "Family"
+F10 "Yes" 50 150 50 H I L CNN "Fit"
+DRAW
+S 50 -895 0 -905 1 1 6 N
+S 50 -795 0 -805 1 1 6 N
+S 50 -695 0 -705 1 1 6 N
+S 50 -595 0 -605 1 1 6 N
+S 50 -495 0 -505 1 1 6 N
+S 50 -395 0 -405 1 1 6 N
+S 50 -295 0 -305 1 1 6 N
+S 50 -195 0 -205 1 1 6 N
+S 50 -95 0 -105 1 1 6 N
+S 50 5 0 -5 1 1 6 N
+S 50 50 -50 -950 1 1 10 f
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_10 10 200 -900 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
+X Pin_3 3 200 -200 150 L 50 50 1 1 P
+X Pin_4 4 200 -300 150 L 50 50 1 1 P
+X Pin_5 5 200 -400 150 L 50 50 1 1 P
+X Pin_6 6 200 -500 150 L 50 50 1 1 P
+X Pin_7 7 200 -600 150 L 50 50 1 1 P
+X Pin_8 8 200 -700 150 L 50 50 1 1 P
+X Pin_9 9 200 -800 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # gz_TVS-Diodes_TI-TPD1E10B09DPYT
 #
 DEF gz_TVS-Diodes_TI-TPD1E10B09DPYT ESD 0 40 Y N 1 F N
