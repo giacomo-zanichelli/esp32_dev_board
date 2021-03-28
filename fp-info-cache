@@ -1,4 +1,4 @@
-79132027280052
+80748974068052
 footprints
 Espressif-ESP32_QFN49P40_600X600X90L40X20T430N
 Quad Flat No-Lead (QFN with Tab), 0.40 mm pitch; square, 12 pin X 12 pin, 6.00 mm L X 6.00 mm W X 0.90 mm H body
@@ -72,6 +72,13 @@ Small Outline Transistor (SOT23), 0.95 mm pitch; 5 pin, 2.90 mm L X 1.60 mm W X 
 footprints
 TI-TPD1E10B09DPYT_DIODFN2_100X60X45L25X50N
 Diode, Dual Flat No-Lead (DFN 2 Pin); 2 pin, 1.00 mm L X 0.60 mm W X 0.45 mm H body
+
+0
+2
+2
+footprints
+WE-7488930245_ANTC320X160X140L50N
+Antenna, Chip; 3.20 mm L X 1.60 mm W X 1.40 mm H Body
 
 0
 2
