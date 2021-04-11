@@ -809,7 +809,7 @@ ENDDEF
 #
 # gz_Test-Points_Test-Point-SMT
 #
-DEF gz_Test-Points_Test-Point-SMT TP 0 0 N N 1 F P
+DEF gz_Test-Points_Test-Point-SMT TP 0 0 N N 1 F N
 F0 "TP" 0 150 50 H V C CNN
 F1 "gz_Test-Points_Test-Point-SMT" 300 350 50 H I L CNN
 F2 "footprints_generic:TestPoint-SMT_C100" 300 250 50 H I L CNN
@@ -822,7 +822,7 @@ ENDDEF
 #
 # gz_Test-Points_Test-Point-THT
 #
-DEF gz_Test-Points_Test-Point-THT TP 0 0 N N 1 F P
+DEF gz_Test-Points_Test-Point-THT TP 0 0 N N 1 F N
 F0 "TP" 0 150 50 H V C CNN
 F1 "gz_Test-Points_Test-Point-THT" 400 350 50 H I L CNN
 F2 "footprints_generic:TestPoint-THT_C150H100" 400 450 50 H I L CNN

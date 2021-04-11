@@ -552,10 +552,10 @@ F 15 "EIA0603" H 9400 1800 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L gz_Test-Points:Test-Point-THT #TP0101
+L gz_Test-Points:Test-Point-THT TP1
 U 1 1 6047F66A
 P 5400 1650
-F 0 "#TP0101" H 5457 1697 50  0000 L CNN
+F 0 "TP1" H 5457 1697 50  0000 L CNN
 F 1 "Test-Point-THT" H 5800 2000 50  0001 L CNN
 F 2 "footprints_generic:TestPoint-THT_C150H100" H 5800 2100 50  0001 L CNN
 F 3 "" H 5400 1650 50  0001 C CNN
@@ -568,10 +568,10 @@ Connection ~ 5400 1700
 Wire Wire Line
 	5400 1700 5800 1700
 $Comp
-L gz_Test-Points:Test-Point-THT #TP0102
+L gz_Test-Points:Test-Point-THT TP
 U 1 1 60483308
 P 8950 1650
-F 0 "#TP0102" H 9007 1697 50  0000 L CNN
+F 0 "TP" H 9007 1697 50  0000 L CNN
 F 1 "Test-Point-THT" H 9350 2000 50  0001 L CNN
 F 2 "footprints_generic:TestPoint-THT_C150H100" H 9350 2100 50  0001 L CNN
 F 3 "" H 8950 1650 50  0001 C CNN
@@ -582,10 +582,10 @@ Connection ~ 8950 1700
 Wire Wire Line
 	8950 1700 9250 1700
 $Comp
-L gz_Test-Points:Test-Point-SMT #TP0103
+L gz_Test-Points:Test-Point-SMT TP
 U 1 1 60483C2B
 P 10100 1700
-F 0 "#TP0103" V 10100 1837 50  0000 L CNN
+F 0 "TP" V 10100 1837 50  0000 L CNN
 F 1 "Test-Point-SMT" H 10400 2050 50  0001 L CNN
 F 2 "footprints_generic:TestPoint-SMT_C100" H 10400 1950 50  0001 L CNN
 F 3 "" H 10100 1700 50  0001 C CNN
