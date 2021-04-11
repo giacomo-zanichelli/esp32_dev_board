@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 0)
@@ -13,11 +13,13 @@
   (layers
     (0 F.Cu signal)
     (1 In1.Cu power)
-    (2 In2.Cu signal)
+    (2 In2.Cu power)
     (31 B.Cu signal)
-    (33 F.Adhes user)
+    (34 B.Paste user)
     (35 F.Paste user)
+    (36 B.SilkS user)
     (37 F.SilkS user)
+    (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
@@ -27,6 +29,7 @@
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
+    (48 B.Fab user)
     (49 F.Fab user)
   )
 
@@ -38,7 +41,7 @@
     (trace_min 0.2)
     (via_size 0.8)
     (via_drill 0.4)
-    (via_min_size 0.4)
+    (via_min_size 0.45)
     (via_min_drill 0.3)
     (uvia_size 0.3)
     (uvia_drill 0.1)
@@ -96,5 +99,14 @@
     (uvia_dia 0.3)
     (uvia_drill 0.1)
   )
+
+  (gr_line (start 80.2 80.2) (end 80.2 119.8) (layer Margin) (width 0.15) (tstamp 6070BF8F))
+  (gr_line (start 179.8 80.2) (end 80.2 80.2) (layer Margin) (width 0.15))
+  (gr_line (start 179.8 119.8) (end 179.8 80.2) (layer Margin) (width 0.15))
+  (gr_line (start 80.2 119.8) (end 179.8 119.8) (layer Margin) (width 0.15))
+  (gr_line (start 80 80) (end 80 120) (layer Edge.Cuts) (width 0.05) (tstamp 6070BAB3))
+  (gr_line (start 180 80) (end 80 80) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 180 120) (end 180 80) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 80 120) (end 180 120) (layer Edge.Cuts) (width 0.05))
 
 )

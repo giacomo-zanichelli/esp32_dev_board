@@ -1,4 +1,4 @@
-update=Sun 28 Mar 2021 17:49:37 BST
+update=Fri 09 Apr 2021 22:00:28 BST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=esp32_dev_board.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -33,11 +33,11 @@ AllowBlindVias=0
 RequireCourtyardDefinitions=1
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.2
-MinViaDiameter=0.4
+MinViaDiameter=0.45
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
-MinHoleToHole=0.25
+MinHoleToHole=0.5
 TrackWidth1=0.25
 ViaDiameter1=0.8
 ViaDrill1=0.4
@@ -78,7 +78,7 @@ Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
@@ -199,17 +199,17 @@ Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=0
 [pcbnew/Layer.F.Adhes]
-Enabled=1
-[pcbnew/Layer.B.Paste]
 Enabled=0
+[pcbnew/Layer.B.Paste]
+Enabled=1
 [pcbnew/Layer.F.Paste]
 Enabled=1
 [pcbnew/Layer.B.SilkS]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.SilkS]
 Enabled=1
 [pcbnew/Layer.B.Mask]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Mask]
 Enabled=1
 [pcbnew/Layer.Dwgs.User]
@@ -229,7 +229,7 @@ Enabled=1
 [pcbnew/Layer.F.CrtYd]
 Enabled=1
 [pcbnew/Layer.B.Fab]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
