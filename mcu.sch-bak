@@ -356,10 +356,10 @@ Connection ~ 3800 2150
 Wire Wire Line
 	3800 2150 3550 2150
 $Comp
-L gz_Test-Points:Test-Point-SMT #TP0104
+L gz_Test-Points:Test-Point-SMT TP
 U 1 1 60505B45
 P 7750 1150
-F 0 "#TP0104" H 7807 1197 50  0000 L CNN
+F 0 "TP" H 7807 1197 50  0000 L CNN
 F 1 "Test-Point-SMT" H 8050 1500 50  0001 L CNN
 F 2 "footprints_generic:TestPoint-SMT_C100" H 8050 1400 50  0001 L CNN
 F 3 "" H 7750 1150 50  0001 C CNN
@@ -814,10 +814,10 @@ Wire Wire Line
 	10500 1850 10500 1950
 Connection ~ 10500 1950
 $Comp
-L gz_Test-Points:Test-Point-SMT #TP0105
+L gz_Test-Points:Test-Point-SMT TP
 U 1 1 605DAA4E
 P 10300 1150
-F 0 "#TP0105" H 10357 1197 50  0000 L CNN
+F 0 "TP" H 10357 1197 50  0000 L CNN
 F 1 "Test-Point-SMT" H 10600 1500 50  0001 L CNN
 F 2 "footprints_generic:TestPoint-SMT_C100" H 10600 1400 50  0001 L CNN
 F 3 "" H 10300 1150 50  0001 C CNN
